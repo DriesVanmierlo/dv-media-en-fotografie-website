@@ -1,0 +1,54 @@
+[
+    {
+        "service": "Fotografie",
+        "description": "Op zoek naar een professionele, gemotiveerde en leergierige fotograaf, laat ik me mezelf even voorstellen! Ik zorg voor het vastleggen van onvergetelijke momenten, helemaal op uw maat.",
+        "content": ["", "", ""],
+        "projects": [
+            {
+                "title": "",
+                "description": "",
+                "date": "",
+                "content": ["", ""]
+            }
+        ]
+    },
+    {
+        "service": "Videografie",
+        "description": "Op zoek naar een professionele, gemotiveerde en leergierige fotograaf, laat ik me mezelf even voorstellen! Ik zorg voor het vastleggen van onvergetelijke momenten, helemaal op uw maat.",
+        "content": ["", "", ""],
+        "projects": [
+            {
+                "title": "",
+                "description": "",
+                "date": "",
+                "content": ["", ""]
+            }
+        ]
+    },
+    {
+        "service": "Design",
+        "description": "Op zoek naar een professionele, gemotiveerde en leergierige fotograaf, laat ik me mezelf even voorstellen! Ik zorg voor het vastleggen van onvergetelijke momenten, helemaal op uw maat.",
+        "content": ["", "", ""],
+        "projects": [
+            {
+                "title": "",
+                "description": "",
+                "date": "",
+                "content": ["", ""]
+            }
+        ]
+    },
+    {
+        "service": "Web",
+        "description": "Op zoek naar een professionele, gemotiveerde en leergierige fotograaf, laat ik me mezelf even voorstellen! Ik zorg voor het vastleggen van onvergetelijke momenten, helemaal op uw maat.",
+        "content": ["", "", ""],
+        "projects": [
+            {
+                "title": "",
+                "description": "",
+                "date": "",
+                "content": ["", ""]
+            }
+        ]
+    }
+]
