@@ -9,7 +9,13 @@
 .yellow-bar {
     height: 100vh;
     width: 15px;
-    background-color: var(--yellow);
+    background-image: linear-gradient(var(--yellow) 75%, var(--black));
+}
+
+.yellow-bar-small {
+    height: 95vh;
+    width: 15px;
+    background-image: linear-gradient(var(--yellow) 75%, var(--black));
 }
 
 .home-content {
@@ -25,6 +31,15 @@
     width: 90%;
     margin: auto;
     margin-top: 80px;
+    display: flex;
+    align-items: baseline;
+}
+
+.home-content-titles-small {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
     display: flex;
     align-items: baseline;
 }
