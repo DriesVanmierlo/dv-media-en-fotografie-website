@@ -1,7 +1,7 @@
 import "./home-item.css";
 import HomeBackground from "../home-background/HomeBackground";
 
-function HomeItem(){
+function HomeItem({serviceInfo}){
     return (
         <div className="home-item-container">
             <HomeBackground className="home-background" />
@@ -9,10 +9,10 @@ function HomeItem(){
                 <div className='yellow-bar'></div>
                 <div className='home-content'>
                     <div className="home-content-titles">
-                        <h1 className='home-content-main-title'>Fotografie</h1>
-                        <div className='home-content-background-title'>Fotografie</div>
+                        <h1 className='home-content-main-title'>{serviceInfo.service}</h1>
+                        <div className='home-content-background-title'>{serviceInfo.service}</div>
                     </div>
-                    <p className='home-content-info'>Op zoek naar een professionele, gemotiveerde en leergierige fotograaf, laat ik me mezelf even voorstellen! Ik zorg voor het vastleggen van onvergetelijke momenten, helemaal op uw maat.</p>
+                    <p className='home-content-info'>{serviceInfo.description}</p>
                     <div className='home-content-buttons'>
                         <a className='home-content-button' href="">Portfolio <span className='icon-right_arrow_big_icon'></span></a>
                         <a className='home-content-button' href="">Contact <span className='icon-right_arrow_big_icon'></span></a>

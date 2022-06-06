@@ -6,7 +6,7 @@ import services from '../home-content.json';
 function Home () {
 
     const servicesList = services.map((item) => {
-        return <HomeItem />
+        return <HomeItem serviceInfo={item} key={item.service.toLowerCase()} />
     })
 
     return (
