@@ -1,0 +1,15 @@
+.portfolio-container{
+    display: flex;
+}
+
+.yellow-bar-full {
+    height: 100vh;
+    width: 15px;
+    background-color: var(--yellow);
+}
+
+.portfolio-content-container {
+    background-color: var(--light-black);
+    height: 50vh;
+    width: 100%;
+}
