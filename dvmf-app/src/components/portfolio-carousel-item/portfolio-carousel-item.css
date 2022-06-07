@@ -1,0 +1,43 @@
+.portfolio-carousel-item {
+    min-width: 70%;
+    margin: 0px 20px;
+    background-color: var(--dark-gray);
+}
+
+.portfolio-carousel-item-header {
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.portfolio-carousel-item-title {
+    margin: 0;
+    color: var(--white);
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.portfolio-item-arrow {
+    color: transparent;
+    -webkit-text-stroke: 0.5px var(--yellow);
+    bottom: 0;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+.portfolio-carousel-figure {
+    margin: 0;
+    width: 95%;
+    margin: auto;
+    height: 100%;
+}
+
+.portfolio-carousel-img {
+    width: 100%;
+    height: auto;
+}

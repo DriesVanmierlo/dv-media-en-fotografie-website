@@ -4,8 +4,8 @@ import "./header.css"
 function Header(){
     return (
         <nav className='header-container'>
-            <figure>
-                <img src={logo} alt="" />
+            <figure className='header-figure'>
+                <img className='header-img' src={logo} alt="" />
             </figure>
 
             <div class="hamburger-menu">

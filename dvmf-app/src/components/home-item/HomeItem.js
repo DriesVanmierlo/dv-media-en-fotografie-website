@@ -1,7 +1,9 @@
 import "./home-item.css";
 import HomeBackground from "../home-background/HomeBackground";
 
-function HomeItem({serviceInfo}){
+function HomeItem(props){
+
+    let serviceInfo = props.data;
 
     return (
         <div className="home-item-container">
