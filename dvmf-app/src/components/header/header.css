@@ -87,3 +87,9 @@ img {
   .menu__item:hover {
     border-bottom: 1px solid var(--yellow);
   }
+
+  .menu__socials_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  }

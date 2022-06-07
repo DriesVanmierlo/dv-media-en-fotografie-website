@@ -19,6 +19,11 @@ function Header(){
                     <li><a class="menu__item" href="#">Portfolio</a></li>
                     <li><a class="menu__item" href="#">About me</a></li>
                     <li><a class="menu__item" href="#">Contact</a></li>
+                    <div className='menu__socials_container'>
+                        <li><a class="menu__item" href="#"><span className='icon-instagram'></span></a></li>
+                        <li><a class="menu__item" href="#"><span className='icon-facebook'></span></a></li>
+                        <li><a class="menu__item" href="#"><span className='icon-linkedin'></span></a></li>
+                    </div>
                 </ul>
             </div>
         </nav>
