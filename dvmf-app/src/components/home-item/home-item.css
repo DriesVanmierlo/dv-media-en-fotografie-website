@@ -109,10 +109,23 @@
     text-align: center;
     font-size: 35px;
     z-index: 1;
-    margin-bottom: 25px;
+    margin-bottom: 45px;
 }
 
 .home-arrow:before {
+    position: relative;
     display: inline-block;
     transform: rotate(90deg);
+    animation: updown 2s infinite ease-in-out;
+}
+
+@keyframes updown {
+    0% {top: 0px;
+    opacity: 0;}
+    25% {top:5px;
+    opacity: 1;}
+    75% {top: 15px;
+    opacity: 1;}
+    100% {top: 20px;
+    opacity: 0;}
 }
