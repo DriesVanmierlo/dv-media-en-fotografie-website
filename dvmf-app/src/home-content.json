@@ -1,12 +1,16 @@
-[
-    {
+[{
         "service": "Fotografie",
         "description": "Op zoek naar een professionele, gemotiveerde en leergierige fotograaf, laat ik me mezelf even voorstellen! Ik zorg voor het vastleggen van onvergetelijke momenten, helemaal op uw maat.",
         "content": ["", "", ""],
         "fullScreen": true,
-        "projects": [
+        "projects": [{
+                "title": "Falsive Records Leuven",
+                "description": "",
+                "date": "",
+                "content": ["", ""]
+            },
             {
-                "title": "",
+                "title": "Sezoensrally 2022",
                 "description": "",
                 "date": "",
                 "content": ["", ""]
@@ -18,23 +22,26 @@
         "description": "Op zoek naar een professionele, gemotiveerde en leergierige fotograaf, laat ik me mezelf even voorstellen! Ik zorg voor het vastleggen van onvergetelijke momenten, helemaal op uw maat.",
         "content": ["", "", ""],
         "fullScreen": false,
-        "projects": [
-            {
-                "title": "",
-                "description": "",
-                "date": "",
-                "content": ["", ""]
-            }
-        ]
+        "projects": [{
+            "title": "Aftermovie Plapmeerdaagse 2021",
+            "description": "",
+            "date": "",
+            "content": ["", ""]
+        }]
     },
     {
         "service": "Design",
         "description": "Op zoek naar een professionele, gemotiveerde en leergierige fotograaf, laat ik me mezelf even voorstellen! Ik zorg voor het vastleggen van onvergetelijke momenten, helemaal op uw maat.",
         "content": ["", "", ""],
         "fullScreen": false,
-        "projects": [
+        "projects": [{
+                "title": "Studentenagenda EHB",
+                "description": "",
+                "date": "",
+                "content": ["", ""]
+            },
             {
-                "title": "",
+                "title": "Totebag Fak Letteren",
                 "description": "",
                 "date": "",
                 "content": ["", ""]
@@ -46,9 +53,14 @@
         "description": "Op zoek naar een professionele, gemotiveerde en leergierige fotograaf, laat ik me mezelf even voorstellen! Ik zorg voor het vastleggen van onvergetelijke momenten, helemaal op uw maat.",
         "content": ["", "", ""],
         "fullScreen": true,
-        "projects": [
+        "projects": [{
+                "title": "Kapsamazing",
+                "description": "",
+                "date": "",
+                "content": ["", ""]
+            },
             {
-                "title": "",
+                "title": "Steam redesign",
                 "description": "",
                 "date": "",
                 "content": ["", ""]

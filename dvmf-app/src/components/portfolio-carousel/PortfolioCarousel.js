@@ -5,6 +5,10 @@ function PortfolioCarousel(props){
 
     let serviceInfo = props.data;
 
+    const projectList = serviceInfo.projects.map((item) => {
+        return <PortfolioCarouselItem data={item} key={item.title.toLowerCase()} />
+    })
+
     return (
             <div>
                 <div className="portfolio-content-titles">
@@ -12,8 +16,7 @@ function PortfolioCarousel(props){
                     <div className='portfolio-content-background-title'>Portfolio</div>
                 </div>
                 <div className='portfolio-carousel'>
-                    <PortfolioCarouselItem />
-                    <PortfolioCarouselItem />
+                    {projectList}
                 </div>
             </div>
     )

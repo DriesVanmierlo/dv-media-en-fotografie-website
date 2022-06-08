@@ -6,8 +6,8 @@
 
 .portfolio-carousel-item-header {
     display: flex;
-    width: 95%;
-    margin: auto;
+    max-width: 100%;
+    margin: 5px;
     justify-content: space-between;
     align-content: center;
     padding-top: 5px;
@@ -32,8 +32,8 @@
 
 .portfolio-carousel-figure {
     margin: 0;
-    width: 95%;
-    margin: auto;
+    max-width: 100%;
+    margin: 3px;
     display: flex;
 }
 
