@@ -1,6 +1,13 @@
 import PortfolioCarouselItem from '../portfolio-carousel-item/PortfolioCarouselItem';
 import './portfolio-carousel.css';
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, A11y, Pagination } from 'swiper';
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
 function PortfolioCarousel(props){
 
     let serviceInfo = props.data;
@@ -16,7 +23,21 @@ function PortfolioCarousel(props){
                     <div className='portfolio-content-background-title'>Portfolio</div>
                 </div>
                 <div className='portfolio-carousel'>
-                    {projectList}
+                    {/* {projectList} */}
+                    <Swiper
+                    modules={[A11y, Pagination]}
+                    // spaceBetween={20}
+                    slidesPerView={"auto"}
+                    centeredSlides={true}
+                    pagination={{ clickable: true,
+                    dynamicBullets: true }} >
+                       {props.data?.projects.map(item => (
+                        <SwiperSlide>
+                            <PortfolioCarouselItem data={item} />
+                       </SwiperSlide>   
+                       ))}
+                       
+                    </Swiper>
                 </div>
             </div>
     )
