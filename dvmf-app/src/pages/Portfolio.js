@@ -10,7 +10,7 @@ function Portfolio(){
 
     return (
         <div className='portfolio-container'>
-            <div className='yellow-bar-full'></div>
+            <div className='portfolio-yellow-bar-full'></div>
             <div className='portfolio-content-container'>
                 {servicesList}
             </div>

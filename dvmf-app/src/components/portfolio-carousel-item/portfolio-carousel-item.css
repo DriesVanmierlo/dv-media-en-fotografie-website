@@ -34,10 +34,14 @@
     margin: 0;
     width: 95%;
     margin: auto;
-    height: 100%;
+    display: flex;
 }
 
 .portfolio-carousel-img {
     width: 100%;
-    height: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+    vertical-align: baseline;
 }
