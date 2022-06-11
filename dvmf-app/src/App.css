@@ -9,6 +9,7 @@
     --dark-gray: #202020;
     --yellow: #FFD900;
     --white: #ffffff;
+    --swiper-theme-color: #FFD900 !important;
 }
 
 @font-face {

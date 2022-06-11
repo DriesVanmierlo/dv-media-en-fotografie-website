@@ -1,13 +1,17 @@
 .portfolio-container{
     display: flex;
+    position: relative;
 }
 
 .portfolio-yellow-bar-full {
     width: 15px;
+    position: absolute;
+    height: 100%;
     background-color: var(--yellow);
 }
 
 .portfolio-content-container {
     background-color: var(--light-black);
     width: 100%;
+    padding-left: 15px;
 }

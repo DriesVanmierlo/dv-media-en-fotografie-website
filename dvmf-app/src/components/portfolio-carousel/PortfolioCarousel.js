@@ -26,13 +26,13 @@ function PortfolioCarousel(props){
                     {/* {projectList} */}
                     <Swiper
                     modules={[A11y, Pagination]}
-                    // spaceBetween={20}
+                    spaceBetween={20}
                     slidesPerView={"auto"}
                     centeredSlides={true}
                     pagination={{ clickable: true,
                     dynamicBullets: true }} >
                        {props.data?.projects.map(item => (
-                        <SwiperSlide>
+                        <SwiperSlide className='portfolio-swiper-slide'>
                             <PortfolioCarouselItem data={item} />
                        </SwiperSlide>   
                        ))}

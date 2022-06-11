@@ -1,6 +1,6 @@
 .portfolio-carousel-item {
-    min-width: 70%;
-    margin: 0px 20px;
+    /* width: 70%; */
+    /* margin: 0px 20px; */
     background-color: var(--dark-gray);
 }
 
