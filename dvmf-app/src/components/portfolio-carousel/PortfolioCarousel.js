@@ -17,8 +17,8 @@ function PortfolioCarousel(props){
     })
 
     return (
-            <div>
-                <div className="portfolio-content-titles">
+            <div className='portfolio-carousel-content-component'>
+                <div className={setTitleMargin(serviceInfo.service)}>
                     <h1 className='portfolio-content-main-title'>{serviceInfo.service}</h1>
                     <div className='portfolio-content-background-title'>Portfolio</div>
                 </div>
@@ -41,6 +41,14 @@ function PortfolioCarousel(props){
                 </div>
             </div>
     )
+}
+
+function setTitleMargin(service){
+    if(service == "Fotografie"){
+        return "portfolio-content-titles";
+    } else {
+        return "portfolio-content-titles-small";
+    }
 }
 
 export default PortfolioCarousel;
