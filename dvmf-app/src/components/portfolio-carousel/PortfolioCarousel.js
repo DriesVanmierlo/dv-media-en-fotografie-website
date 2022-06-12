@@ -1,6 +1,9 @@
 import PortfolioCarouselItem from '../portfolio-carousel-item/PortfolioCarouselItem';
 import './portfolio-carousel.css';
 
+import PortfolioModal from '../../components/portfolio-modal/PortfolioModal';
+import { useState } from 'react';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, A11y, Pagination } from 'swiper';
 
@@ -15,6 +18,8 @@ function PortfolioCarousel(props){
     const projectList = serviceInfo.projects.map((item) => {
         return <PortfolioCarouselItem data={item} key={item.title.toLowerCase()} />
     })
+
+    const [openModal, setOpenModal] = useState(false);
 
     return (
             <div className='portfolio-carousel-content-component'>
@@ -32,13 +37,14 @@ function PortfolioCarousel(props){
                     pagination={{ clickable: true,
                     dynamicBullets: true }} >
                        {props.data?.projects.map(item => (
-                        <SwiperSlide className='portfolio-swiper-slide'>
+                        <SwiperSlide className='portfolio-swiper-slide' onClick={() => {setOpenModal(true)}}>
                             <PortfolioCarouselItem data={item} />
                        </SwiperSlide>   
                        ))}
                        
                     </Swiper>
                 </div>
+                {openModal && <PortfolioModal closeModal={setOpenModal} />}
             </div>
     )
 }
