@@ -19,9 +19,7 @@ console.log(props)
                     modules={[A11y, Pagination]}
                     spaceBetween={20}
                     slidesPerView={1}
-                    centeredSlides={true}
-                    pagination={{ clickable: true,
-                    dynamicBullets: true }} 
+                    pagination={{ dynamicBullets: true }} 
                     className='portfolio-modal-swiper'>
                        {props?.project.content.map(item => (
                         <SwiperSlide className='portfolio-modal-swiper-slide' >

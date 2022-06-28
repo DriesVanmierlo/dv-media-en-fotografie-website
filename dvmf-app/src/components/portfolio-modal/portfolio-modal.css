@@ -67,6 +67,7 @@
 .portfolio-modal-swiper-slide {
     width: 100% !important;
     text-align: center;
+    max-width: unset;
 }
 
 .portfolio-modal-swiper-slide img {
