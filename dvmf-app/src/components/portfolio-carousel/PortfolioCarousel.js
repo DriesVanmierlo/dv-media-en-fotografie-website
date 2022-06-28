@@ -20,6 +20,7 @@ function PortfolioCarousel(props){
     })
 
     const [openModal, setOpenModal] = useState(false);
+    const [project, setProject] = useState();
 
     return (
             <div className='portfolio-carousel-content-component'>
@@ -37,14 +38,13 @@ function PortfolioCarousel(props){
                     pagination={{ clickable: true,
                     dynamicBullets: true }} >
                        {props.data?.projects.map(item => (
-                        <SwiperSlide className='portfolio-swiper-slide' onClick={() => {setOpenModal(true)}}>
+                        <SwiperSlide className='portfolio-swiper-slide' onClick={() => {setOpenModal(true); setProject(item)}}>
                             <PortfolioCarouselItem data={item} />
                        </SwiperSlide>   
                        ))}
-                       
                     </Swiper>
                 </div>
-                {openModal && <PortfolioModal closeModal={setOpenModal} />}
+                {openModal && <PortfolioModal project={project} closeModal={setOpenModal} />}
             </div>
     )
 }
