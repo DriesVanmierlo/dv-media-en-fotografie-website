@@ -1,0 +1,127 @@
+.contact-container {
+    width: 100%;
+    min-height: 100%;
+    background-color: var(--light-black);
+}
+
+.contact-titles {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    padding-top: 80px;
+    display: flex;
+    align-items: baseline;
+    padding-left: 25px;
+}
+
+.contact-main-title {
+    margin: 0;
+    margin-top: 30px;
+    color: var(--white);
+    font-weight: 600;
+    font-size: 29px;
+    text-shadow: 0px 0px 10px var(--black-75);
+    z-index: 1;
+}
+
+.contact-background-title {
+    position: absolute;
+    display: block;
+    margin: 0;
+    font-size: max(56px);
+    font-weight: 600;
+    color: transparent;
+    -webkit-text-stroke: 0.3px var(--yellow);
+}
+
+.contact-info-container, .contact-form-container {
+    width: 90%;
+    margin: auto;
+}
+
+.contact-info-section {
+    width: 100%;
+}
+
+.contact-info-section > h2, .contact-form-container > h2 {
+    color: var(--yellow);
+    font-size: 15px;
+    font-weight: 200;
+    margin-bottom: 3px;
+}
+
+.contact-info-section > div, .contact-form-container > p {
+    color: var(--white);
+    font-size: 12px;
+    font-weight: 200;
+    margin-top: 0;
+}
+
+.contact-form-container > p {
+    font-size: 12px;
+}
+
+.form-row {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.form-row > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row > div > input {
+    width: 90%;
+    border: none;
+    background-color: var(--dark-gray);
+    height: 24px;
+    border-bottom: 1px solid var(--yellow);
+    color: var(--white);
+}
+
+.form-row > div > textarea {
+    width: 200%;
+    border: none;
+    background-color: var(--dark-gray);
+    border-bottom: 1px solid var(--yellow);
+    color: var(--white);
+}
+
+#contact-form label {
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#contact-submit {
+    display: flex;
+    color: var(--white);
+    background-color: transparent;
+    border: 1px solid var(--white);
+    padding: 6px 12px;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: 10%;
+}
+
+.icon-contact {
+    padding-top: 3px;
+}
+
+.contact-socials {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: 10%;
+    margin-top: 25px;
+    padding-bottom: 25px;
+}
+
+.contact-social {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 200;
+}
