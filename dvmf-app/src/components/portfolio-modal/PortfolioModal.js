@@ -25,7 +25,7 @@ console.log(props)
                     className='portfolio-modal-swiper'>
                        {props?.project.content.map(item => (
                         <SwiperSlide className='portfolio-modal-swiper-slide' >
-                            <img src={item} alt="" />
+                            {setContent(item)}
                        </SwiperSlide>   
                        ))}
                     </Swiper>
@@ -36,6 +36,14 @@ console.log(props)
             </div>
         </div>
     )
+}
+
+function setContent (link){
+    if (link.includes('vimeo')) {
+        return <iframe title="vimeo-player" src={link} width="100%" height="auto" frameborder="0" allowfullscreen></iframe>
+    } else {
+        return <img src={link} alt="" />
+    }
 }
 
 export default PortfolioModal;
