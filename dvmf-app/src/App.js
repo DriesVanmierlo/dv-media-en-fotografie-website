@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './components/header/Header';
+import About from './pages/About';
 import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 
@@ -9,7 +10,8 @@ function App() {
       <Header className="header" />
       <div className="main-container">
         {/* <Home /> */}
-        <Portfolio />
+        {/* <Portfolio /> */}
+        <About />
       </div>
     </div>
   );
