@@ -8,7 +8,7 @@ function HomeItem(props){
 
     return (
         <div className="home-item-container">
-            <HomeBackground data={serviceInfo.content[0]} className="home-background" />
+            <HomeBackground data={serviceInfo.content} className="home-background" />
             <div className='home-content-container'>
             {setBarHeight(serviceInfo.fullScreen)}
                 <div className='home-content'>
