@@ -6,18 +6,37 @@ import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import Success from './pages/Success';
 
+import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
 function App() {
   return (
-    <div className="App">
+    <Router>
+      <div className="App">
       <Header className="header" />
       <div className="main-container">
         {/* <Home /> */}
         {/* <Portfolio /> */}
         {/* <About /> */}
-        <Contact />
+        {/* <Contact /> */}
         {/* <Success /> */}
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/portfolio">
+            <Portfolio />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+        </Switch>
       </div>
     </div>
+    </Router>
+    
   );
 }
 

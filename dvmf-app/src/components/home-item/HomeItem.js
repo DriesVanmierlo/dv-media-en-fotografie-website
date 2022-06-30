@@ -1,5 +1,6 @@
 import "./home-item.css";
 import HomeBackground from "../home-background/HomeBackground";
+import { Link } from "react-router-dom";
 
 function HomeItem(props){
 
@@ -14,8 +15,8 @@ function HomeItem(props){
                     {setMarginTitles(serviceInfo)}
                     <p className='home-content-info'>{serviceInfo.description}</p>
                     <div className='home-content-buttons'>
-                        <a className='home-content-button' href="">Portfolio <span className='icon-right_arrow_big_icon'></span></a>
-                        <a className='home-content-button' href="">Contact <span className='icon-right_arrow_big_icon'></span></a>
+                        <Link className='home-content-button' to={"/portfolio/" + serviceInfo.service.toString().toLowerCase()}>Portfolio <span className='icon-right_arrow_big_icon'></span></Link>
+                        <Link className='home-content-button' to="/contact">Contact <span className='icon-right_arrow_big_icon'></span></Link>
                     </div>
                 </div>
             </div>

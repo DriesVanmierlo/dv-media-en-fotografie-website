@@ -23,7 +23,7 @@ function PortfolioCarousel(props){
     const [project, setProject] = useState();
 
     return (
-            <div className='portfolio-carousel-content-component'>
+            <div id={serviceInfo.service.toString().toLowerCase()} className='portfolio-carousel-content-component'>
                 <div className={setTitleMargin(serviceInfo.service)}>
                     <h1 className='portfolio-content-main-title'>{serviceInfo.service}</h1>
                     <div className='portfolio-content-background-title'>Portfolio</div>
