@@ -69,6 +69,7 @@
 .form-row > div {
     display: flex;
     flex-direction: column;
+    width: 50%;
 }
 
 .form-row > div > input {

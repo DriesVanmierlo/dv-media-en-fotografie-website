@@ -4,6 +4,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
+import Success from './pages/Success';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         {/* <Portfolio /> */}
         {/* <About /> */}
         <Contact />
+        {/* <Success /> */}
       </div>
     </div>
   );

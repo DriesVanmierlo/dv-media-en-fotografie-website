@@ -1,4 +1,5 @@
 import "./styles/contact.css";
+import Success from "./Success";
 
 function Contact () {
     return (
@@ -23,7 +24,10 @@ function Contact () {
             <div className="contact-form-container">
                 <h2>Stuur me een bericht!</h2>
                 <p>Ik probeer zo snel mogelijk te reageren om samen naar de beste oplossing voor u te zoeken!</p>
-                <form id="contact-form">
+                <form id="contact-form" action="https://formsubmit.co/cebd607ef5bf444708ffe9ba23bd2ee8" method="POST">
+                    <input type="text" name="_honey" style={{display: "none"}} />
+                    <input type="hidden" name="_captcha" value={false} />
+                    <input type="hidden" name="_next" value='/success.js' />
                     <div className="form-row">
                         <div className="lastname-field">
                             <label htmlFor="lastname">Naam</label>
