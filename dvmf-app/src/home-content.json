@@ -1,7 +1,7 @@
 [{
         "service": "Fotografie",
         "description": "Op zoek naar een professionele, gemotiveerde en leergierige fotograaf, laat ik me mezelf even voorstellen! Ik zorg voor het vastleggen van onvergetelijke momenten, helemaal op uw maat.",
-        "content": ["", "", ""],
+        "content": ["https://i.ibb.co/JkvpqBX/7G3A0607.jpg", "https://i.ibb.co/B63Ynys/IMG-4674.jpg", ""],
         "fullScreen": true,
         "projects": [{
                 "title": "Falsive Records Leuven",
@@ -32,7 +32,7 @@
     {
         "service": "Videografie",
         "description": "Op zoek naar een professionele, gemotiveerde en leergierige fotograaf, laat ik me mezelf even voorstellen! Ik zorg voor het vastleggen van onvergetelijke momenten, helemaal op uw maat.",
-        "content": ["", "", ""],
+        "content": ["https://i.ibb.co/Nrfg2Zt/Plapzakken.jpg", "", ""],
         "fullScreen": false,
         "projects": [{
             "title": "Aftermovie Plapmeerdaagse 2021",
@@ -44,7 +44,7 @@
     {
         "service": "Design",
         "description": "Op zoek naar een professionele, gemotiveerde en leergierige fotograaf, laat ik me mezelf even voorstellen! Ik zorg voor het vastleggen van onvergetelijke momenten, helemaal op uw maat.",
-        "content": ["", "", ""],
+        "content": ["https://i.ibb.co/L1SP27n/Studentenagenda-22-23.png", "", ""],
         "fullScreen": false,
         "projects": [{
                 "title": "Studentenagenda EHB",
@@ -63,7 +63,7 @@
     {
         "service": "Web",
         "description": "Op zoek naar een professionele, gemotiveerde en leergierige fotograaf, laat ik me mezelf even voorstellen! Ik zorg voor het vastleggen van onvergetelijke momenten, helemaal op uw maat.",
-        "content": ["", "", ""],
+        "content": ["https://i.ibb.co/GTDLmSM/site-screenshot.png", "", ""],
         "fullScreen": true,
         "projects": [{
                 "title": "Kapsamazing",
