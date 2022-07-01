@@ -11,7 +11,7 @@ function About(){
             <div className='about-header-container'>
                 <figure className='about-figure'>
                         <div className='yellow-image-border'></div>
-                        <img className='about-img' src={ProfilePicture} alt="" />
+                        <img className='about-img' src={ProfilePicture} alt="profile-picture-dries" />
                 </figure>
                 <h2 className='about-content-title'>Hey, ik ben Dries!</h2>
             </div>

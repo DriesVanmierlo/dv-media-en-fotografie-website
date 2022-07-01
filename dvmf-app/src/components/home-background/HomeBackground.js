@@ -32,7 +32,7 @@ function HomeBackground(props) {
             {props.data.map(item => (
                 <SwiperSlide className='home-background-slide'>
                     {/* <figure className='home-background-figure'> */}
-                        <img className='home-background-image' src={item} alt="" />
+                        <img className='home-background-image' src={item} alt="homepage-background-image" />
                     {/* </figure> */}
                 </SwiperSlide>   
             ))}

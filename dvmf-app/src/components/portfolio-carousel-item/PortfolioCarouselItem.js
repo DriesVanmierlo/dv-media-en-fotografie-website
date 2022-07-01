@@ -9,7 +9,7 @@ function PortfolioCarouselItem(props){
                 <span className='icon-right_arrow_small_icon portfolio-item-arrow'></span>
             </div>
             <figure className='portfolio-carousel-figure'>
-                <img className='portfolio-carousel-img' src={props.data.content[0]} alt="" />
+                <img className='portfolio-carousel-img' src={props.data.content[0]} alt={props.data.title.toString().toLowerCase() + '-cover-image'} />
             </figure>
         </div>
     )

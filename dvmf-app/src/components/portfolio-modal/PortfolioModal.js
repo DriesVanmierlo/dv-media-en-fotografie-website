@@ -40,7 +40,7 @@ function setContent (link){
     if (link.includes('vimeo')) {
         return <iframe title="vimeo-player" src={link} width="100%" height="auto" frameborder="0" allowfullscreen></iframe>
     } else {
-        return <img src={link} alt="" />
+        return <img src={link} alt="preview-project-image" />
     }
 }
 

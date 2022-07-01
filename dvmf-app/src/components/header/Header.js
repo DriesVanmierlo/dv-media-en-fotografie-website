@@ -7,7 +7,7 @@ function Header(){
         <nav className='header-container'>
             <figure className='header-figure'>
                 <Link to="/">
-                    <img className='header-img' src={logo} alt="" />
+                    <img className='header-img' src={logo} alt="dv-media-en-fotografie-logo" />
                 </Link>
             </figure>
 
