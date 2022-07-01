@@ -1,12 +1,43 @@
 import background_image from '../../assets/images/home_background_placeholder.jpg';
 import "./home-background.css";
 
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import { Autoplay, Pagination, Navigation } from "swiper";
+
 function HomeBackground(props) {
     return (
         <div>
-            <figure className='home-background-figure'>
-                <img className='home-background-image' src={props.data[changeBackground(props.data)]} alt="" />
-            </figure>
+            <Swiper
+            spaceBetween={0}
+            centeredSlides={true}
+            autoplay={{
+              delay: 6000,
+              disableOnInteraction: false,
+            }}
+            // loop={true}
+            // pagination={{
+            //   clickable: true,
+            // }}
+            // navigation={true}
+            modules={[Autoplay, 
+                // Pagination, 
+                // Navigation
+            ]}
+            className="mySwiper home-background-swiper"
+            >
+            {props.data.map(item => (
+                <SwiperSlide className='home-background-slide'>
+                    {/* <figure className='home-background-figure'> */}
+                        <img className='home-background-image' src={item} alt="" />
+                    {/* </figure> */}
+                </SwiperSlide>   
+            ))}
+            </Swiper>
+            
         </div>
     );
 }

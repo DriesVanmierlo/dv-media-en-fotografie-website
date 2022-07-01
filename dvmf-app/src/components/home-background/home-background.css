@@ -14,3 +14,16 @@
     -o-object-position: center;
     object-position: center;
 }
+
+.home-background-swiper {
+    position: absolute !important;
+    z-index: -1 !important;
+    height: 100vh !important;
+    width: 100% !important;
+}
+
+.home-background-swiper .home-background-slide {
+    width: 100vw !important;
+    width: 100% !important;
+    max-width: unset !important;
+}
