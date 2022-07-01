@@ -32,6 +32,9 @@ function App() {
           <Route path="/contact">
             <Contact />
           </Route>
+          <Route path="/success">
+            <Success />
+          </Route>
         </Switch>
       </div>
     </div>

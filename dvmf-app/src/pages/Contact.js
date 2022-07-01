@@ -27,7 +27,7 @@ function Contact () {
                 <form id="contact-form" action="https://formsubmit.co/cebd607ef5bf444708ffe9ba23bd2ee8" method="POST">
                     <input type="text" name="_honey" style={{display: "none"}} />
                     <input type="hidden" name="_captcha" value={false} />
-                    <input type="hidden" name="_next" value='/success.js' />
+                    <input type="hidden" name="_next" value="http://localhost:3000/success" />
                     <div className="form-row">
                         <div className="lastname-field">
                             <label htmlFor="lastname">Naam</label>

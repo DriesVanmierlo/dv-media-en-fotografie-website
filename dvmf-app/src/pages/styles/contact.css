@@ -126,3 +126,13 @@
     font-size: 21px;
     font-weight: 200;
 }
+
+#success-message {
+    margin-top: 35px;
+    background-color: var(--dark-gray);
+    border: 1px solid var(--white);
+    padding: 5px 10px;
+    color: var(--white);
+    font-size: 15px;
+    text-align: center;
+}
