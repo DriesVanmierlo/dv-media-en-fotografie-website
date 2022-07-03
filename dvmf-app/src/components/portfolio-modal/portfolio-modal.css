@@ -29,6 +29,7 @@
 
 .portfolio-modal-more {
     text-decoration: none;
+    justify-content: end;
 }
 
 .portfolio-icon-back, .portfolio-icon-more{

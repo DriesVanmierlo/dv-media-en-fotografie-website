@@ -23,7 +23,7 @@ function Success () {
             <div className="contact-form-container">
                 <h2>Stuur me een bericht!</h2>
                 <p>Ik probeer zo snel mogelijk te reageren om samen naar de beste oplossing voor u te zoeken!</p>
-                <p id="success-message">Verzonden! Ik laat zo snel mogelijk iets man mij horen.</p>
+                <p id="success-message">Verzonden! Ik laat zo snel mogelijk iets van mij horen.</p>
                 <ul className='contact-socials'>
                     <li><a class="contact-social" href="#"><span className='icon-instagram'></span></a></li>
                     <li><a class="contact-social" href="#"><span className='icon-facebook'></span></a></li>

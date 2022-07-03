@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Header(){
     return (
-        <nav className='header-container'>
+        <nav className='header-container' id='nav-bar'>
             <figure className='header-figure'>
                 <Link to="/">
                     <img className='header-img' src={logo} alt="dv-media-en-fotografie-logo" />

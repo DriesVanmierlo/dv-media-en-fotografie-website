@@ -14,11 +14,6 @@ function App() {
       <div className="App">
       <Header className="header" />
       <div className="main-container">
-        {/* <Home /> */}
-        {/* <Portfolio /> */}
-        {/* <About /> */}
-        {/* <Contact /> */}
-        {/* <Success /> */}
         <Switch>
           <Route exact path="/">
             <Home />
