@@ -134,3 +134,20 @@
     100% {top: 30px;
     opacity: 0;}
 }
+
+@media only screen and (min-width: 768px){
+
+    .home-content {
+        width: 48%;
+        height: 100vh;
+    }
+
+    .home-content-small {
+        height: 95vh;
+    }
+
+    .home-content-titles, .home-content-info, .home-content-buttons {
+        width: 80%;
+    }
+
+}

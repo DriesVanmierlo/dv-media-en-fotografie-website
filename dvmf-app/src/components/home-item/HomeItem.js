@@ -11,7 +11,7 @@ function HomeItem(props){
             <HomeBackground data={serviceInfo.content} className="home-background" />
             <div className='home-content-container'>
             {setBarHeight(serviceInfo.fullScreen)}
-                <div className='home-content'>
+                <div id={"home-content-" + serviceInfo.service.toString().toLowerCase()} className={setContentHeight(serviceInfo)}>
                     {setMarginTitles(serviceInfo)}
                     <p className='home-content-info'>{serviceInfo.description}</p>
                     <div className='home-content-buttons'>
@@ -30,6 +30,14 @@ function setBarHeight(isFull){
         return <div className='yellow-bar'></div>
     } else {
         return <div className='yellow-bar-small'></div>
+    }
+}
+
+function setContentHeight(serviceInfo){
+    if(serviceInfo.fullScreen == true){
+        return 'home-content';
+    } else {
+        return 'home-content home-content-small';
     }
 }
 
