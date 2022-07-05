@@ -14,10 +14,7 @@ import 'swiper/css/pagination';
 function PortfolioCarousel(props){
 
     let serviceInfo = props.data;
-
-    const projectList = serviceInfo.projects.map((item) => {
-        return <PortfolioCarouselItem data={item} key={item.title.toLowerCase()} />
-    })
+    let width = props.width;
 
     const [openModal, setOpenModal] = useState(false);
     const [project, setProject] = useState();
@@ -29,12 +26,11 @@ function PortfolioCarousel(props){
                     <div className='portfolio-content-background-title'>Portfolio</div>
                 </div>
                 <div className='portfolio-carousel'>
-                    {/* {projectList} */}
                     <Swiper
                     modules={[A11y, Pagination]}
                     spaceBetween={20}
                     slidesPerView={"auto"}
-                    centeredSlides={true}
+                    centeredSlides={setCentered(width)}
                     pagination={{ clickable: true,
                     dynamicBullets: true }} >
                        {props.data?.projects.map(item => (
@@ -47,6 +43,16 @@ function PortfolioCarousel(props){
                 {openModal && <PortfolioModal project={project} closeModal={setOpenModal} />}
             </div>
     )
+}
+
+function setCentered(width){
+    if(width < 768){
+        console.log("TRUE");
+        return true;
+    } else {
+        console.log("FALSE");
+        return false;
+    }
 }
 
 function setTitleMargin(service){
