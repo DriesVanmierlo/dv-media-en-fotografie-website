@@ -10,14 +10,21 @@ import { Navigation, A11y, Pagination } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import { useEffect } from 'react';
 
 function PortfolioCarousel(props){
 
     let serviceInfo = props.data;
-    let width = props.width;
 
     const [openModal, setOpenModal] = useState(false);
     const [project, setProject] = useState();
+    const [innerWidth, setWidth] = useState(window.innerWidth);
+
+    useEffect(() => {
+        window.addEventListener('resize', function(event) {
+            setWidth(this.window.innerWidth);
+        }, true);
+    })
 
     return (
             <div id={serviceInfo.service.toString().toLowerCase()} className='portfolio-carousel-content-component'>
@@ -30,7 +37,8 @@ function PortfolioCarousel(props){
                     modules={[A11y, Pagination]}
                     spaceBetween={20}
                     slidesPerView={"auto"}
-                    centeredSlides={setCentered(width)}
+                    slidesPerGroup={setSlidesPerGroup(innerWidth)}
+                    centeredSlides={setCentered(innerWidth)}
                     pagination={{ clickable: true,
                     dynamicBullets: true }} >
                        {props.data?.projects.map(item => (
@@ -45,8 +53,18 @@ function PortfolioCarousel(props){
     )
 }
 
-function setCentered(width){
-    if(width < 768){
+function setSlidesPerGroup(innerWidth){
+    if(innerWidth < 768){
+        return 1;
+    } else if (innerWidth > 1025){
+        return 4;
+    } else {
+        return 2;
+    }
+}
+
+function setCentered(innerWidth){
+    if(innerWidth < 768){
         console.log("TRUE");
         return true;
     } else {

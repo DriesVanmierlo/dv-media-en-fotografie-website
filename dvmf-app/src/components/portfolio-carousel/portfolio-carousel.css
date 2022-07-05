@@ -101,3 +101,17 @@
     -webkit-align-items: center;
     align-items: center;
 }
+
+@media only screen and (min-width: 768px){
+
+    .portfolio-carousel{
+        width: 80%;
+        margin: auto;
+    }
+
+    .portfolio-swiper-slide {
+        max-width: unset;
+        width: 48% !important;
+    }
+
+}

@@ -4,15 +4,9 @@ import services from '../home-content.json';
 
 function Portfolio(){
 
-    let innerWidth;
-
-    window.addEventListener('resize', function(event) {
-        console.log(this.window.innerWidth);
-        innerWidth = this.window.innerWidth;
-    }, true);
 
     const servicesList = services.map((item) => {
-        return <PortfolioCarousel data={item} width={innerWidth} key={item.service.toLowerCase()} />
+        return <PortfolioCarousel data={item} key={item.service.toLowerCase()} />
     })
 
     return (

@@ -79,3 +79,23 @@
 .swiper-pagination {
     width: 90px !important;
 }
+
+@media only screen and (min-width: 768px){
+    
+    .portfolio-modal-content {
+        height: 100%;
+    }
+    
+    .portfolio-modal-swiper-slide img {
+        max-height: 50vh;
+        max-width: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        -o-object-position: center;
+        object-position: center;
+    }
+
+    .portfolio-modal-swiper-slide {
+        max-height: 50vh;
+    }
+}
