@@ -105,10 +105,19 @@
     font-size: 18px;
     margin-left: auto;
     margin-top: 10px;
+    transition: 0.3s ease;
+}
+  
+#contact-submit:hover {
+    background-color: var(--white);
+    color: var(--dark-gray);
+    transition: 0.3s ease;
+    cursor: pointer;
 }
 
 .icon-contact {
     padding-top: 3px;
+    padding-left: 6px;
 }
 
 .contact-socials {

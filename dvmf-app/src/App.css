@@ -70,3 +70,13 @@ body {
     top: 0;
     z-index: -1;
 }
+
+.white-button {
+  transition: 0.3s ease;
+}
+
+.white-button:hover {
+  background-color: var(--white);
+  color: var(--dark-gray);
+  transition: 0.3s ease;
+}

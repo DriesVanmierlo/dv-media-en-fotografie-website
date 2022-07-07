@@ -58,7 +58,7 @@ function Contact () {
                             <label htmlFor="message">Bericht</label>
                             <textarea className="contact-message" rows={8} required type="text" id="message" name="message" />
                         </div>
-                    <button id="contact-submit">Verzenden <span className='icon-right_arrow_big_icon icon-contact'></span></button>
+                    <button className="white-button" id="contact-submit">Verzenden <span className='icon-right_arrow_big_icon icon-contact'></span></button>
                 </form>
                 <ul className='contact-socials'>
                     <li><a class="contact-social" href="#"><span className='icon-instagram'></span></a></li>
