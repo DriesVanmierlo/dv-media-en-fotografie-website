@@ -16,7 +16,8 @@ console.log(props)
                     {/* BEGIN */}
 
                     <Swiper
-                    modules={[A11y, Pagination]}
+                    modules={[A11y, Pagination, Navigation]}
+                    navigation
                     spaceBetween={20}
                     slidesPerView={1}
                     pagination={{ dynamicBullets: true }} 
@@ -30,7 +31,7 @@ console.log(props)
 
                     {/* EINDE */}
                 </div>
-                <a href='#' className='portfolio-modal-more'>Bekijk meer <span className='icon-down_arrow_small_icon portfolio-icon-more'></span></a>
+                {setMoreButton(props.project)}
             </div>
         </div>
     )
@@ -38,9 +39,15 @@ console.log(props)
 
 function setContent (link){
     if (link.includes('vimeo')) {
-        return <iframe title="vimeo-player" src={link} width="100%" height="auto" frameborder="0" allowfullscreen></iframe>
+        return <iframe title="vimeo-player" className="portfolio-modal-iframe" src={link} width="100%" height="auto" frameborder="0" allowfullscreen></iframe>
     } else {
         return <img src={link} alt="preview-project-image" />
+    }
+}
+
+function setMoreButton(item){
+    if(item.link.length > 0){
+        return <a href={item.link} target="_blank" className='portfolio-modal-more'>Bekijk meer <span className='icon-down_arrow_small_icon portfolio-icon-more'></span></a>;
     }
 }
 
