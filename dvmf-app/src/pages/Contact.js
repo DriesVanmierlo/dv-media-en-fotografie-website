@@ -54,12 +54,10 @@ function Contact () {
                             <input required type="text" id="subject" name="subject" />
                         </div>
                     </div>
-                    <div className="form-row">
                         <div className="message-field">
                             <label htmlFor="message">Bericht</label>
-                            <textarea rows={8} required type="text" id="message" name="message" />
+                            <textarea className="contact-message" rows={8} required type="text" id="message" name="message" />
                         </div>
-                    </div>
                     <button id="contact-submit">Verzenden <span className='icon-right_arrow_big_icon icon-contact'></span></button>
                 </form>
                 <ul className='contact-socials'>

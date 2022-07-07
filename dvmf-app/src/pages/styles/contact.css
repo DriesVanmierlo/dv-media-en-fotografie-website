@@ -64,16 +64,17 @@
 .form-row {
     display: flex;
     margin-bottom: 12px;
+    justify-content: space-between;
 }
 
 .form-row > div {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 48%;
 }
 
 .form-row > div > input {
-    width: 90%;
+    width: 100%;
     border: none;
     background-color: var(--dark-gray);
     height: 24px;
@@ -81,8 +82,8 @@
     color: var(--white);
 }
 
-.form-row > div > textarea {
-    width: 200%;
+.contact-message {
+    width: 100%;
     border: none;
     background-color: var(--dark-gray);
     border-bottom: 1px solid var(--yellow);
@@ -103,7 +104,7 @@
     padding: 6px 12px;
     font-size: 18px;
     margin-left: auto;
-    margin-right: 10%;
+    margin-top: 10px;
 }
 
 .icon-contact {
@@ -135,4 +136,16 @@
     color: var(--white);
     font-size: 15px;
     text-align: center;
+}
+
+@media only screen and (min-width: 768px){
+    #contact-form {
+        width: 80%;
+        margin: auto;
+        padding-top: 25px;
+    }
+
+    .contact-socials {
+        width: 30%;
+    }
 }
