@@ -63,6 +63,7 @@
 
 .portfolio-modal-swiper {
     width: 100%;
+    position: relative;
 }
 
 .portfolio-modal-swiper-slide {
@@ -91,6 +92,20 @@
     text-shadow: 0px 3px 6px var(--black);
     /* border-radius: 50px; */
     font-weight: 100;
+    position: absolute;
+    top: 93%;
+}
+
+.swiper-button-prev {
+    left: 30%;
+}
+
+.swiper-button-next {
+    right: 30%;
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+    font-size: 20px;
 }
 
 @media only screen and (min-width: 768px){
@@ -109,5 +124,16 @@
         object-position: center;
     }
 
+    .portfolio-modal-swiper .swiper-button-next, .portfolio-modal-swiper .swiper-button-prev {
+        top: 96%;
+    }
+
+    .swiper-button-prev {
+        left: 35%;
+    }
+    
+    .swiper-button-next {
+        right: 35%;
+    }
     
 }

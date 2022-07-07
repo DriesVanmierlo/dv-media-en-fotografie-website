@@ -34,9 +34,10 @@ function PortfolioCarousel(props){
                 </div>
                 <div className='portfolio-carousel'>
                     <Swiper
-                    modules={[A11y, Pagination]}
+                    modules={[A11y, Pagination, Navigation]}
                     spaceBetween={20}
                     slidesPerView={"auto"}
+                    navigation
                     slidesPerGroup={setSlidesPerGroup(innerWidth)}
                     centeredSlides={setCentered(innerWidth)}
                     pagination={{ clickable: true,
