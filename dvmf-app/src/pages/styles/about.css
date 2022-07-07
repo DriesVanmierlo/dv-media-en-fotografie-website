@@ -84,3 +84,21 @@
     font-size: 15px;
     font-weight: 200;
 }
+
+@media only screen and (min-width: 768px){
+
+    .about-header-container {
+        justify-content: unset;
+    }
+
+    .about-content-title {
+        margin: auto;
+        padding: 0;
+        font-size: 30px;
+    }
+
+    .about-content-container {
+        width: 80%;
+        margin-left: 5%;
+    }
+}
