@@ -2,6 +2,33 @@
     /* width: 70%; */
     /* margin: 0px 20px; */
     background-color: var(--dark-gray);
+    box-shadow: unset;
+    transition: 0.3s ease;
+
+    /* transition details */
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-carousel-item:hover{
+    cursor: pointer;
+}
+
+.portfolio-carousel-item::before {
+    transition: 0.3s ease;
+    content: '';
+	position: absolute;
+	background-color: var(--yellow);
+    bottom: -3px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    z-index: 1;
+}
+
+.portfolio-carousel-item:hover:before{
+    bottom: 0;
+    transition: 0.3s ease;
 }
 
 .portfolio-carousel-item-header {
@@ -34,7 +61,9 @@
     margin: 0;
     max-width: 100%;
     margin: 3px;
+    margin-bottom: 0;
     display: flex;
+    padding-bottom: 3px;
 }
 
 .portfolio-carousel-img {
