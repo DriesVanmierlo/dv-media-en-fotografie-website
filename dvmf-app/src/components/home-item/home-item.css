@@ -151,3 +151,15 @@
     }
 
 }
+
+@media only screen and (min-width: 1024px){
+    .home-content{
+        width: 40%;
+    }
+
+    .yellow-bar, .yellow-bar-small {
+        height: 100vh;
+        background-color: var(--yellow);
+        background-image: none;
+    }
+}

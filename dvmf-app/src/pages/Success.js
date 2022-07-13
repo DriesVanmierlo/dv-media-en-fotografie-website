@@ -1,6 +1,9 @@
 import "./styles/contact.css";
 
 function Success () {
+
+    document.getElementById('body').style.overflow = "unset";
+
     return (
         <div className="contact-container">
             <div className='contact-titles'>

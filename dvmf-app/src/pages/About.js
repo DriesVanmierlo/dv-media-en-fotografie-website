@@ -3,6 +3,8 @@ import ProfilePicture from '../assets/images/profile_transparent.png';
 
 function About(){
 
+    document.getElementById('body').style.overflow = "unset";
+
     return (
         <div className="about-container">
             <div className='about-titles'>

@@ -1,6 +1,7 @@
 import "./home-item.css";
 import HomeBackground from "../home-background/HomeBackground";
 import { Link } from "react-router-dom";
+import { useState, useEffect } from 'react';
 
 function HomeItem(props){
 

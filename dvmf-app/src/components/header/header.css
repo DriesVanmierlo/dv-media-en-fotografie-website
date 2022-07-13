@@ -131,6 +131,6 @@
 
     .nav-bar-item:hover {
       border-bottom: 1px solid var(--yellow);
-      transition: .3s ease;
+      transition: 0.3s ease;
     }
   }

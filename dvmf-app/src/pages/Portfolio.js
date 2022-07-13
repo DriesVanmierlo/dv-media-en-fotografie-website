@@ -4,6 +4,7 @@ import services from '../home-content.json';
 
 function Portfolio(){
 
+    document.getElementById('body').style.overflow = "unset";
 
     const servicesList = services.map((item) => {
         return <PortfolioCarousel data={item} key={item.service.toLowerCase()} />
