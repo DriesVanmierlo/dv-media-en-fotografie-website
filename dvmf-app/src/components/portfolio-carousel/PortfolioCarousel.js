@@ -20,9 +20,16 @@ function PortfolioCarousel(props){
     const [project, setProject] = useState();
     const [innerWidth, setWidth] = useState(window.innerWidth);
 
+    if(innerWidth < 768){
+        setSlideWidth(innerWidth);
+    }
+
     useEffect(() => {
         window.addEventListener('resize', function(event) {
             setWidth(this.window.innerWidth);
+            if(innerWidth < 768){
+                setSlideWidth(innerWidth);
+            }
         }, true);
     })
 
@@ -36,7 +43,7 @@ function PortfolioCarousel(props){
                     <Swiper
                     modules={[A11y, Pagination, Navigation]}
                     spaceBetween={20}
-                    slidesPerView={"auto"}
+                    slidesPerView={setSlidesPerView(innerWidth)}
                     navigation
                     slidesPerGroup={setSlidesPerGroup(innerWidth)}
                     centeredSlides={setCentered(innerWidth)}
@@ -54,10 +61,20 @@ function PortfolioCarousel(props){
     )
 }
 
+function setSlidesPerView(innerWidth){
+    if(innerWidth < 768){
+        return "auto";
+    } else if (innerWidth >= 1024){
+        return 4;
+    } else {
+        return 2;
+    }
+}
+
 function setSlidesPerGroup(innerWidth){
     if(innerWidth < 768){
         return 1;
-    } else if (innerWidth > 1025){
+    } else if (innerWidth >= 1024){
         return 4;
     } else {
         return 2;
@@ -66,10 +83,8 @@ function setSlidesPerGroup(innerWidth){
 
 function setCentered(innerWidth){
     if(innerWidth < 768){
-        console.log("TRUE");
         return true;
     } else {
-        console.log("FALSE");
         return false;
     }
 }
@@ -80,6 +95,16 @@ function setTitleMargin(service){
     } else {
         return "portfolio-content-titles-small";
     }
+}
+
+function setSlideWidth(width){
+    console.log(width, "SET WIDTH");
+    const collection = Array.from(
+        document.getElementsByClassName('portfolio-swiper-slide')
+      );
+      collection.forEach((e) => {
+        e.style.width = "75% !important";
+      })
 }
 
 export default PortfolioCarousel;
