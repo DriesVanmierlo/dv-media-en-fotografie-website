@@ -113,7 +113,7 @@
     }
 
     .portfolio-swiper-slide {
-        /* max-width: unset; */
+        max-width: unset;
         /* width: null !important; */
     }
 

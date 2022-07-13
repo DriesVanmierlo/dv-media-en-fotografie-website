@@ -20,16 +20,16 @@ function PortfolioCarousel(props){
     const [project, setProject] = useState();
     const [innerWidth, setWidth] = useState(window.innerWidth);
 
-    if(innerWidth < 768){
-        setSlideWidth(innerWidth);
-    }
+    // if(innerWidth < 768){
+    //     setSlideWidth(innerWidth);
+    // }
 
     useEffect(() => {
         window.addEventListener('resize', function(event) {
             setWidth(this.window.innerWidth);
-            if(innerWidth < 768){
-                setSlideWidth(innerWidth);
-            }
+            // if(innerWidth < 768){
+            //     setSlideWidth(innerWidth);
+            // }
         }, true);
     })
 
@@ -62,6 +62,7 @@ function PortfolioCarousel(props){
 }
 
 function setSlidesPerView(innerWidth){
+    console.log(innerWidth);
     if(innerWidth < 768){
         return "auto";
     } else if (innerWidth >= 1024){
@@ -97,14 +98,14 @@ function setTitleMargin(service){
     }
 }
 
-function setSlideWidth(width){
-    console.log(width, "SET WIDTH");
-    const collection = Array.from(
-        document.getElementsByClassName('portfolio-swiper-slide')
-      );
-      collection.forEach((e) => {
-        e.style.width = "75% !important";
-      })
-}
+// function setSlideWidth(width){
+    // console.log(width, "SET WIDTH");
+    // const collection = Array.from(
+    //     document.getElementsByClassName('portfolio-swiper-slide')
+    //   );
+    //   collection.forEach((e) => {
+    //     e.style.width = "75% !important";
+    //   })
+// }
 
 export default PortfolioCarousel;
