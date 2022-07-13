@@ -25,25 +25,30 @@
     padding: 5px 5px 5px 0px;
     display: flex;
     align-items: center;
+    transition: 0.3s ease;
 }
 
-.portfolio-modal-back:hover {
+.portfolio-modal-back:hover, .portfolio-modal-more:hover {
     color: var(--white);
     cursor: pointer;
-}
-
-.portfolio-modal-back:hover .portfolio-icon-more {
-    -webkit-text-stroke: 1px var(--white);
+    transition: 0.3s ease;
 }
 
 .portfolio-modal-more {
     text-decoration: none;
     justify-content: end;
+    transition: 0.3s ease;
 }
 
 .portfolio-icon-back, .portfolio-icon-more{
     -webkit-text-stroke: 1px var(--yellow);
     color: transparent;
+    transition: 0.3s ease;
+}
+
+.portfolio-modal-back:hover .portfolio-icon-back,.portfolio-modal-more:hover .portfolio-icon-more {
+    -webkit-text-stroke: 1px var(--white);
+    transition: 0.3s ease;
 }
 
 .portfolio-icon-more {
