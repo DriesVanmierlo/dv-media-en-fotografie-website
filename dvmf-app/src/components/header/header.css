@@ -102,3 +102,35 @@
     }
 
   }
+
+  @media only screen and (min-width: 1024px){
+
+    .header-container{
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .nav-bar-list{
+      display: flex;
+      height: 100%;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    
+    .nav-bar-item {
+      transition: 0.3s ease;
+      text-decoration: none;
+      color: var(--white);
+      margin: 12px 28px;
+      font-size: 19px;
+      font-weight: 300;
+      border: none;
+    }
+
+    .nav-bar-item:hover {
+      border-bottom: 1px solid var(--yellow);
+      transition: .3s ease;
+    }
+  }
