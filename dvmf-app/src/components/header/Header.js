@@ -16,7 +16,7 @@ function Header(){
     return (
         <nav className='header-container' id='nav-bar'>
             <figure className='header-figure'>
-                <Link to="/">
+                <Link to="/#home-fotografie">
                     <img className='header-img' src={logo} alt="dv-media-en-fotografie-logo" />
                 </Link>
             </figure>
@@ -30,7 +30,6 @@ function closeMenu(){
 }
 
 function setNavMenu(width){
-    console.log(width);
     if(width < 1024){
         return <div class="hamburger-menu">
         <input id="menu__toggle" type="checkbox" />

@@ -8,7 +8,10 @@ function Home () {
 
     const [innerWidth, setWidth] = useState(window.innerWidth);
 
-    console.log(innerWidth);
+    useEffect(()=>{
+        window.location.href = "#home-fotografie";
+    })
+
     if(innerWidth >= 1024){
         setScrolling(false);
     }else{

@@ -5,14 +5,23 @@ import { useState, useEffect } from 'react';
 
 function HomeItem(props){
 
+    const [innerWidth, setWidth] = useState(window.innerWidth);
+
+    useEffect(() => {
+        window.addEventListener('resize', function(event) {
+            setWidth(this.window.innerWidth);
+        }, true);
+    })
+
     let serviceInfo = props.data;
 
     return (
-        <div className="home-item-container">
+        <div id={"home-" + serviceInfo.service.toString().toLowerCase()} className="home-item-container">
             <HomeBackground data={serviceInfo.content} className="home-background" />
             <div className='home-content-container'>
-            {setBarHeight(serviceInfo.fullScreen)}
+                {setBarHeight(serviceInfo.fullScreen)}
                 <div id={"home-content-" + serviceInfo.service.toString().toLowerCase()} className={setContentHeight(serviceInfo)}>
+                    {setServicesMenu(innerWidth)}
                     {setMarginTitles(serviceInfo)}
                     <p className='home-content-info'>{serviceInfo.description}</p>
                     <div className='home-content-buttons'>
@@ -31,6 +40,15 @@ function setBarHeight(isFull){
         return <div className='yellow-bar'></div>
     } else {
         return <div className='yellow-bar-small'></div>
+    }
+}
+
+function setServicesMenu(width){
+    if(width >= 1024){
+        return <ul className="home-services-list"><li><a className="home-service-item" href="#home-fotografie">Fotografie</a></li>
+        <li><a className="home-service-item" href="#home-videografie">Videografie</a></li>
+        <li><a className="home-service-item" href="#home-design">Design</a></li>
+        <li><a className="home-service-item" href="#home-web">Web</a></li></ul>
     }
 }
 
