@@ -20,16 +20,9 @@ function PortfolioCarousel(props){
     const [project, setProject] = useState();
     const [innerWidth, setWidth] = useState(window.innerWidth);
 
-    // if(innerWidth < 768){
-    //     setSlideWidth(innerWidth);
-    // }
-
     useEffect(() => {
         window.addEventListener('resize', function(event) {
             setWidth(this.window.innerWidth);
-            // if(innerWidth < 768){
-            //     setSlideWidth(innerWidth);
-            // }
         }, true);
     })
 
