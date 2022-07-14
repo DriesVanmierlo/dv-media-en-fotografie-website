@@ -137,7 +137,7 @@
     
     .portfolio-modal-swiper-slide img {
         height: 100%;
-        max-height: 50vh;
+        max-height: 58vh;
         max-width: 100%;
         -o-object-fit: contain;
         object-fit: contain;
@@ -157,4 +157,14 @@
         right: 35%;
     }
     
+}
+
+@media only screen and (min-width: 1024px){
+    .swiper-button-prev {
+        left: 40%;
+    }
+    
+    .swiper-button-next {
+        right: 40%;
+    }
 }

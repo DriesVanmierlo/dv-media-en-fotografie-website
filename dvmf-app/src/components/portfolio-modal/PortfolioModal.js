@@ -13,8 +13,6 @@ console.log(props)
                 <button className='portfolio-modal-back' onClick={()=> props.closeModal(false)}><span className='icon-down_arrow_small_icon portfolio-icon-back'></span> Terug</button>
                 <h3 className='portfolio-modal-title'>{props.project.title}</h3>
                 <div>
-                    {/* BEGIN */}
-
                     <Swiper
                     modules={[A11y, Pagination, Navigation]}
                     navigation
@@ -28,8 +26,6 @@ console.log(props)
                        </SwiperSlide>   
                        ))}
                     </Swiper>
-
-                    {/* EINDE */}
                 </div>
                 {setMoreButton(props.project)}
             </div>
