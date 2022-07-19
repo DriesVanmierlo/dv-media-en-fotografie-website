@@ -21,7 +21,7 @@ function HomeItem(props){
             <div className='home-content-container'>
                 {setBarHeight(serviceInfo.fullScreen)}
                 <div id={"home-content-" + serviceInfo.service.toString().toLowerCase()} className={setContentHeight(serviceInfo)}>
-                    {setServicesMenu(innerWidth)}
+                    {setServicesMenu(innerWidth, serviceInfo.service.toString().toLowerCase())}
                     {setMarginTitles(serviceInfo)}
                     <p className='home-content-info'>{serviceInfo.description}</p>
                     <div className='home-content-buttons'>
@@ -43,12 +43,18 @@ function setBarHeight(isFull){
     }
 }
 
-function setServicesMenu(width){
+function setServicesMenu(width, service){
     if(width >= 1024){
-        return <ul className="home-services-list"><li><a className="home-service-item" href="#home-fotografie">Fotografie</a></li>
-        <li><a className="home-service-item" href="#home-videografie">Videografie</a></li>
-        <li><a className="home-service-item" href="#home-design">Design</a></li>
-        <li><a className="home-service-item" href="#home-web">Web</a></li></ul>
+        return <ul className="home-services-list"><li><a className={"home-service-item " + checkActive(service, "fotografie")} href="#home-fotografie">Fotografie</a></li>
+        <li><a className={"home-service-item " + checkActive(service, "videografie")} href="#home-videografie">Videografie</a></li>
+        <li><a className={"home-service-item " + checkActive(service, "design")} href="#home-design">Design</a></li>
+        <li><a className={"home-service-item " + checkActive(service, "web")} href="#home-web">Web</a></li></ul>
+    }
+}
+
+function checkActive(serviceActive, service){
+    if(serviceActive == service){
+        return "home-active-tab";
     }
 }
 

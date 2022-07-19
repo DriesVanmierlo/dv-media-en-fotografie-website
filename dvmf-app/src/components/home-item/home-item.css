@@ -193,6 +193,10 @@
         transition: 0.3s ease;
     }
 
+    .home-active-tab {
+        border-bottom: 1px solid var(--yellow);
+    }
+
     .home-content-titles{
         margin-top: 0;
     }
