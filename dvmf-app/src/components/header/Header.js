@@ -1,6 +1,6 @@
 import logo from '../../assets/images/logo_white_transparent.svg';
 import "./header.css"
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
 function Header(){
@@ -38,10 +38,10 @@ function setNavMenu(width){
         </label>
 
         <ul class="menu__box" onClick={closeMenu}>
-            <li><Link class="menu__item" to="/">Home</Link></li>
-            <li><Link class="menu__item" to="/portfolio">Portfolio</Link></li>
-            <li><Link class="menu__item" to="/about">About me</Link></li>
-            <li><Link class="menu__item" to="/contact">Contact</Link></li>
+            <li><NavLink exact activeClassName='menu__item-active' className="menu__item" to="/">Home</NavLink></li>
+            <li><NavLink activeClassName='menu__item-active' className="menu__item" to="/portfolio">Portfolio</NavLink></li>
+            <li><NavLink activeClassName='menu__item-active' className="menu__item" to="/about">About me</NavLink></li>
+            <li><NavLink activeClassName='menu__item-active' className="menu__item" to="/contact">Contact</NavLink></li>
             <div className='menu__socials_container'>
                 <li><a class="menu__item" href="#"><span className='icon-instagram'></span></a></li>
                 <li><a class="menu__item" href="#"><span className='icon-facebook'></span></a></li>
@@ -51,10 +51,10 @@ function setNavMenu(width){
     </div>
     } else {
         return <ul className='nav-bar-list'>
-            <li><Link class="nav-bar-item" to="/">Home</Link></li>
-            <li><Link class="nav-bar-item" to="/portfolio">Portfolio</Link></li>
-            <li><Link class="nav-bar-item" to="/about">About me</Link></li>
-            <li><Link class="nav-bar-item" to="/contact">Contact</Link></li>
+            <li><NavLink exact activeClassName='nav-bar-active-item' className="nav-bar-item" id='nav-bar-home' to="/">Home</NavLink></li>
+            <li><NavLink activeClassName='nav-bar-active-item' className="nav-bar-item" id='nav-bar-portfolio' to="/portfolio">Portfolio</NavLink></li>
+            <li><NavLink activeClassName='nav-bar-active-item' className="nav-bar-item" id='nav-bar-about' to="/about">About me</NavLink></li>
+            <li><NavLink activeClassName='nav-bar-active-item' className="nav-bar-item" id='nav-bar-contact' to="/contact">Contact</NavLink></li>
         </ul>
     }
 }

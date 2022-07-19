@@ -86,7 +86,13 @@
     text-align: center;
   }
   .menu__item:hover {
-    border-bottom: 1px solid var(--yellow);
+    /* border-bottom: 1px solid var(--yellow); */
+    color: var(--yellow);
+  }
+
+  .menu__item-active {
+    /* border-bottom: 1px solid var(--yellow); */
+    color: var(--yellow);
   }
 
   .menu__socials_container {
@@ -127,6 +133,10 @@
       font-size: 19px;
       font-weight: 300;
       border: none;
+    }
+
+    .nav-bar-active-item {
+      border-bottom: 1px solid var(--yellow);
     }
 
     .nav-bar-item:hover {
