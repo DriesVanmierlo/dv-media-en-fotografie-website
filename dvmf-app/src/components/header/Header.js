@@ -37,25 +37,25 @@ function setNavMenu(width){
         <span></span>
         </label>
 
-        <ul class="menu__box" onClick={closeMenu}>
-            <li><NavLink exact activeClassName='menu__item-active' className="menu__item" to="/">Home</NavLink></li>
-            <li><NavLink activeClassName='menu__item-active' className="menu__item" to="/portfolio">Portfolio</NavLink></li>
-            <li><NavLink activeClassName='menu__item-active' className="menu__item" to="/about">About me</NavLink></li>
-            <li><NavLink activeClassName='menu__item-active' className="menu__item" to="/contact">Contact</NavLink></li>
+        <nav class="menu__box" onClick={closeMenu}>
+            <NavLink exact activeClassName='menu__item-active' className="menu__item" to="/">Home</NavLink>
+            <NavLink activeClassName='menu__item-active' className="menu__item" to="/portfolio">Portfolio</NavLink>
+            <NavLink activeClassName='menu__item-active' className="menu__item" to="/about">About me</NavLink>
+            <NavLink activeClassName='menu__item-active' className="menu__item" to="/contact">Contact</NavLink>
             <div className='menu__socials_container'>
                 <li><a class="menu__item" href="#"><span className='icon-instagram'></span></a></li>
                 <li><a class="menu__item" href="#"><span className='icon-facebook'></span></a></li>
                 <li><a class="menu__item" href="#"><span className='icon-linkedin'></span></a></li>
             </div>
-        </ul>
+        </nav>
     </div>
     } else {
-        return <ul className='nav-bar-list'>
-            <li><NavLink exact activeClassName='nav-bar-active-item' className="nav-bar-item" id='nav-bar-home' to="/">Home</NavLink></li>
-            <li><NavLink activeClassName='nav-bar-active-item' className="nav-bar-item" id='nav-bar-portfolio' to="/portfolio">Portfolio</NavLink></li>
-            <li><NavLink activeClassName='nav-bar-active-item' className="nav-bar-item" id='nav-bar-about' to="/about">About me</NavLink></li>
-            <li><NavLink activeClassName='nav-bar-active-item' className="nav-bar-item" id='nav-bar-contact' to="/contact">Contact</NavLink></li>
-        </ul>
+        return <nav className='nav-bar-list'>
+        <NavLink exact activeClassName='nav-bar-active-item' className="nav-bar-item" id='nav-bar-home' to="/">Home</NavLink>
+        <NavLink activeClassName='nav-bar-active-item' className="nav-bar-item" id='nav-bar-portfolio' to="/portfolio">Portfolio</NavLink>
+        <NavLink activeClassName='nav-bar-active-item' className="nav-bar-item" id='nav-bar-about' to="/about">About me</NavLink>
+        <NavLink activeClassName='nav-bar-active-item' className="nav-bar-item" id='nav-bar-contact' to="/contact">Contact</NavLink>
+        </nav>
     }
 }
 

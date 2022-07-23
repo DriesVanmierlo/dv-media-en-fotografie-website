@@ -28,6 +28,7 @@ function HomeItem(props){
                         <Link className='home-content-button white-button' to={"/portfolio/" + serviceInfo.service.toString().toLowerCase()}>Portfolio <span className='icon-right_arrow_big_icon'></span></Link>
                         <Link className='home-content-button white-button' to="/contact">Contact <span className='icon-right_arrow_big_icon'></span></Link>
                     </div>
+                {setCopyright(innerWidth)}
                 </div>
             </div>
             {setLatestArrow(serviceInfo.service)}
@@ -77,6 +78,12 @@ function setMarginTitles(serviceInfo){
         <h1 className='home-content-main-title'>{serviceInfo.service}</h1>
         <div className='home-content-background-title'>{serviceInfo.service}</div>
     </div>
+    }
+}
+
+function setCopyright(width){
+    if(width >= 1024){
+        return <div className='home-copyright-container'>&copy; 2022 <a className='home-copyright-link' href="/">DV Media &amp; Fotografie</a></div>
     }
 }
 

@@ -34,10 +34,17 @@ function Home () {
     })
 
     return (
-        <div>
+        <div className='home-container'>
             {servicesList}
+            {setCopyright(innerWidth)}
         </div>
     );
+}
+
+function setCopyright(width){
+    if(width < 1024){
+        return <div className='home-copyright-container'>&copy; 2022 <a className='home-copyright-link' href="/">DV Media &amp; Fotografie</a></div>
+    }
 }
 
 function setScrolling(scroll){
