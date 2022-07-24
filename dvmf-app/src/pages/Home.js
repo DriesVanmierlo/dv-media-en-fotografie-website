@@ -9,7 +9,8 @@ function Home () {
     const [innerWidth, setWidth] = useState(window.innerWidth);
 
     useEffect(()=>{
-        window.location.href = "#home-fotografie";
+        // window.location.href = "#home-fotografie";
+        window.scrollTo({top: 0, left: 0});
     })
 
     if(innerWidth >= 1024){

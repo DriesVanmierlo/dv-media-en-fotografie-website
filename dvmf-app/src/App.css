@@ -61,6 +61,14 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+}
+
+body::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
 }
 
 .main-container {
@@ -79,4 +87,25 @@ body {
   background-color: var(--white);
   color: var(--dark-gray);
   transition: 0.3s ease;
+}
+
+.fade-appear,
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit.active {
+  opacity: 0;
+  transition: opacity 500ms ease-out;
 }
