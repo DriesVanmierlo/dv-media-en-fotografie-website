@@ -26,4 +26,11 @@
     width: 100vw !important;
     width: 100% !important;
     max-width: unset !important;
+    display: flex;
+    justify-content: center;
+}
+
+.home-video {
+    min-height: 100%;
+    min-width: 100%;
 }

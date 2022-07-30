@@ -57,7 +57,7 @@
     {
         "service": "Videografie",
         "description": "Tegenwoordig is het belang van videocontent groter dan ooit. Ik sta open voor al jouw wensen om helemaal up-to-date te zijn op een trendy manier!",
-        "content": ["https://i.ibb.co/TrMP9dV/1.png"],
+        "content": ["https://res.cloudinary.com/dijwniqzx/video/upload/v1659186979/DV%20Media%20en%20Fotografie/Website/2_Trim_hdtueo.mp4", "https://res.cloudinary.com/dijwniqzx/video/upload/v1659187618/DV%20Media%20en%20Fotografie/Website/DV_Gaming_-_Favoriete_Spelletje_prod._Sawer__Trim_orwu6r.mp4"],
         "fullScreen": false,
         "projects": [{
             "title": "Final Show intro",

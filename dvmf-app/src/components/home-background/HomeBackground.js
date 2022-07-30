@@ -32,7 +32,8 @@ function HomeBackground(props) {
             {props.data.map(item => (
                 <SwiperSlide className='home-background-slide'>
                     {/* <figure className='home-background-figure'> */}
-                        <img className='home-background-image' src={item} alt="homepage-background-image" />
+                        {/* <img className='home-background-image' src={item} alt="homepage-background-image" /> */}
+                        {setVideo(item)}
                     {/* </figure> */}
                 </SwiperSlide>   
             ))}
@@ -40,6 +41,18 @@ function HomeBackground(props) {
             
         </div>
     );
+}
+
+function setVideo(url){
+    if(url.includes('video')){
+        return <video src={url} autoPlay
+        muted
+        loop
+        className="home-video"
+        type="video/mp4"/>;
+    } else {
+        return <img className='home-background-image' src={url} alt="homepage-background-image" />;
+    }
 }
 
 function changeBackground(data){
