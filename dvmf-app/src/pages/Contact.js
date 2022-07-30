@@ -27,9 +27,9 @@ function Contact () {
                         </div>
                     </div>
                     <ul className='contact-socials-desktop'>
-                        <li><a class="contact-social" href="#"><span className='icon-instagram'></span></a></li>
-                        <li><a class="contact-social" href="#"><span className='icon-facebook'></span></a></li>
-                        <li><a class="contact-social" href="#"><span className='icon-linkedin'></span></a></li>
+                        <li><a class="contact-social" target="_blank" href="https://www.instagram.com/dvmediaenfotografie/"><span className='icon-instagram'></span></a></li>
+                        <li><a class="contact-social" target="_blank" href="https://www.facebook.com/DVMediaEnFotografie"><span className='icon-facebook'></span></a></li>
+                        <li><a class="contact-social" target="_blank" href="https://www.linkedin.com/company/dv-media-fotografie/"><span className='icon-linkedin'></span></a></li>
                     </ul>
                 </div>
                 <div className="contact-form-container">

@@ -43,9 +43,9 @@ function setNavMenu(width){
             <NavLink activeClassName='menu__item-active' className="menu__item" to="/about">About me</NavLink>
             <NavLink activeClassName='menu__item-active' className="menu__item" to="/contact">Contact</NavLink>
             <div className='menu__socials_container'>
-                <li><a class="menu__item" href="#"><span className='icon-instagram'></span></a></li>
-                <li><a class="menu__item" href="#"><span className='icon-facebook'></span></a></li>
-                <li><a class="menu__item" href="#"><span className='icon-linkedin'></span></a></li>
+                <li><a target="_blank" class="menu__item" href="https://www.instagram.com/dvmediaenfotografie/"><span className='icon-instagram'></span></a></li>
+                <li><a target="_blank" class="menu__item" href="https://www.facebook.com/DVMediaEnFotografie"><span className='icon-facebook'></span></a></li>
+                <li><a target="_blank" class="menu__item" href="https://www.linkedin.com/company/dv-media-fotografie/"><span className='icon-linkedin'></span></a></li>
             </div>
         </nav>
     </div>

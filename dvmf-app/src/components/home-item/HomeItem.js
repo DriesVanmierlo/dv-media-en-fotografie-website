@@ -60,8 +60,6 @@ function HomeItem(props){
                 opacity: 0 
             });
         }
-
-        console.log(serviceInfo.service ,' = ', inView);
     }, [inView])
 
     return (
