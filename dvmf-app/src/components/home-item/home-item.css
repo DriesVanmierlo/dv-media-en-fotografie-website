@@ -57,7 +57,7 @@
     position: absolute;
     display: block;
     margin: 0;
-    font-size: max(56px);
+    font-size: max(54px);
     font-weight: 600;
     color: transparent;
     -webkit-text-stroke: 0.3px var(--yellow);

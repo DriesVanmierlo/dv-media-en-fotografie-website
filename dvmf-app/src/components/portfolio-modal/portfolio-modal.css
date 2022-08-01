@@ -15,6 +15,12 @@
     margin-top: 100px;
 }
 
+.portfolio-modal-header {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 12px;
+}
+
 .portfolio-modal-back, .portfolio-modal-more {
     color: var(--yellow);
     font-size: 18px;
@@ -70,7 +76,8 @@
     font-weight: 300;
     margin: 0;
     margin-top: 10px;
-    margin-bottom: 12px;
+    margin-bottom: 0px;
+    padding-left: 12px;
 }
 
 /*SWIPER*/
@@ -88,8 +95,9 @@
 }
 
 .portfolio-modal-swiper-slide img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
+    max-height: 40vh;
 }
 
 .swiper-pagination {
@@ -129,15 +137,28 @@
     font-size: 20px;
 }
 
+.portfolio-modal-description {
+    color: var(--white);
+    font-size: 15px;
+}
+
 @media only screen and (min-width: 768px){
+
+    .portfolio-modal-content {
+        margin-top: 85px;
+    }
     
     .portfolio-modal-content {
         height: 100%;
     }
+
+    .portfolio-modal-title {
+        margin-top: 0px;
+    }
     
     .portfolio-modal-swiper-slide img {
         height: 100%;
-        max-height: 58vh;
+        max-height: 50vh;
         max-width: 100%;
         -o-object-fit: contain;
         object-fit: contain;
@@ -160,6 +181,11 @@
 }
 
 @media only screen and (min-width: 1024px){
+
+    .portfolio-modal-title {
+        margin-top: 12px;
+    }
+
     .swiper-button-prev {
         left: 40%;
     }
@@ -167,4 +193,23 @@
     .swiper-button-next {
         right: 40%;
     }
+
+    .portfolio-modal-swiper-slide img {
+        max-height: 60vh;
+    }
+
+    .portfolio-modal-swiper-more{
+        order: 1;
+        width: 75%;
+    }
+
+    .portfolio-modal-description {
+        width: 25%;
+    }
+
+    .portfolio-modal-swiper-description{
+        display: flex;
+        width: 100%;
+    }
+
 }

@@ -5,29 +5,33 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, A11y, Pagination } from 'swiper';
 
 function PortfolioModal(props){
-console.log(props)
 
     return(
         <div className='portfolio-modal-container'>
             <div className='portfolio-modal-content'>
-                <button className='portfolio-modal-back' onClick={()=> props.closeModal(false)}><span className='icon-down_arrow_small_icon portfolio-icon-back'></span> Terug</button>
-                <h3 className='portfolio-modal-title'>{props.project.title}</h3>
-                <div>
-                    <Swiper
-                    modules={[A11y, Pagination, Navigation]}
-                    navigation
-                    spaceBetween={20}
-                    slidesPerView={1}
-                    pagination={{ dynamicBullets: true }} 
-                    className='portfolio-modal-swiper'>
-                       {props?.project.content.map(item => (
-                        <SwiperSlide className='portfolio-modal-swiper-slide' >
-                            {setContent(item)}
-                       </SwiperSlide>   
-                       ))}
-                    </Swiper>
+                <div className="portfolio-modal-header">
+                    <button className='portfolio-modal-back' onClick={()=> props.closeModal(false)}><span className='icon-down_arrow_small_icon portfolio-icon-back'></span> Terug</button>
+                    <h3 className='portfolio-modal-title'>{props.project.title}</h3>
                 </div>
-                {setMoreButton(props.project)}
+                <div className="portfolio-modal-swiper-description">
+                    <div className="portfolio-modal-swiper-more">
+                        <Swiper
+                        modules={[A11y, Pagination, Navigation]}
+                        navigation
+                        spaceBetween={20}
+                        slidesPerView={1}
+                        pagination={{ dynamicBullets: true }}
+                        className='portfolio-modal-swiper'>
+                           {props?.project.content.map(item => (
+                            <SwiperSlide className='portfolio-modal-swiper-slide' >
+                                {setContent(item)}
+                           </SwiperSlide>
+                           ))}
+                        </Swiper>
+                        {setMoreButton(props.project)}
+                    </div>
+                <p className="portfolio-modal-description">{props.project.description}</p>
+                </div>
             </div>
         </div>
     )

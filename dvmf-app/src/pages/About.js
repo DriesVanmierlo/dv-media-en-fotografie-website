@@ -42,8 +42,8 @@ function setParagraphs(width, desktop){
         return <div className='about-content-container'>
         <p className='about-paragraph'>Ik ben een zelfstandig student-ondernemer die zich toelegt op alle beeld, ontwerp en web opdrachten.</p>
         <p className='about-paragraph'>Steeds probeer ik mijn grenzen te verleggen om een optimaal resultaat te creëren. Ik ben gespecialiseerd op verschillende gebieden, omdat ik het belangrijk vind dat ik steeds alles over "the bigger picture" weet. Hierdoor werken al mijn diensten perfect met mekaar en heeft u maar één man nodig!</p>
-        <p className='about-paragraph'>Ik heb al enkele projecten die buiten mijn schoolopdrachten liggen. Van het ontwerpen van totebags, studentenagenda's, affiches,... tot fotoshoots op technofeestjes, paardenjumpings,...</p>
-        <p className='about-paragraph'>De passie die ik voor dit vak heb, heb ik gekregen op jonge leeftijd. Toen ik 14 jaar was, had ontdekt dat ik video's maken en dingen ontwerpen iets voor mij was. Tot de dag van vandaag heb ik hier nog steeds meer plezier in!</p>
+        <p className='about-paragraph'>Ik grijp iedere kans om mijn ervaring uit te breiden. Van het ontwerpen van totebags, studentenagenda's, affiches,... tot fotoshoots op technofeestjes, paardenjumpings,...</p>
+        <p className='about-paragraph'>De passie die ik voor dit vak heb, heb ik gekregen op jonge leeftijd. Toen ik 14 jaar was, had ontdekt dat ik video's maken en dingen ontwerpen iets voor mij was. Tot de dag van vandaag heb ik hier steeds meer plezier in!</p>
         <p className='about-paragraph'>Mijn doel is om iedereen die naar mij vraagt, in een vaste en tevreden klant te veranderen!</p>
         <ul className='about-socials'>
             <li><a class="about-social" target="_blank" href="https://www.instagram.com/vanmierlodries/"><span className='icon-instagram'></span></a></li>
@@ -55,8 +55,8 @@ function setParagraphs(width, desktop){
         return <div className='about-content-container'>
         <p className='about-paragraph'>Ik ben een zelfstandig student-ondernemer die zich toelegt op alle beeld, ontwerp en web opdrachten.</p>
         <p className='about-paragraph'>Steeds probeer ik mijn grenzen te verleggen om een optimaal resultaat te creëren. Ik ben gespecialiseerd op verschillende gebieden, omdat ik het belangrijk vind dat ik steeds alles over "the bigger picture" weet. Hierdoor werken al mijn diensten perfect met mekaar en heeft u maar één man nodig!</p>
-        <p className='about-paragraph'>Ik heb al enkele projecten die buiten mijn schoolopdrachten liggen. Van het ontwerpen van totebags, studentenagenda's, affiches,... tot fotoshoots op technofeestjes, paardenjumpings,...</p>
-        <p className='about-paragraph'>De passie die ik voor dit vak heb, heb ik gekregen op jonge leeftijd. Toen ik 14 jaar was, had ontdekt dat ik video's maken en dingen ontwerpen iets voor mij was. Tot de dag van vandaag heb ik hier nog steeds meer plezier in!</p>
+        <p className='about-paragraph'>Ik grijp iedere kans om mijn ervaring uit te breiden. Van het ontwerpen van totebags, studentenagenda's, affiches,... tot fotoshoots op technofeestjes, paardenjumpings,...</p>
+        <p className='about-paragraph'>De passie die ik voor dit vak heb, heb ik gekregen op jonge leeftijd. Toen ik 14 jaar was, had ontdekt dat ik video's maken en dingen ontwerpen iets voor mij was. Tot de dag van vandaag heb ik hier steeds meer plezier in!</p>
         <p className='about-paragraph'>Mijn doel is om iedereen die naar mij vraagt, in een vaste en tevreden klant te veranderen!</p>
         <ul className='about-socials'>
             <li><a class="about-social" target="_blank" href="https://www.instagram.com/vanmierlodries/"><span className='icon-instagram'></span></a></li>

@@ -5,7 +5,7 @@
         "fullScreen": true,
         "projects": [{
                 "title": "Falsive Records Leuven",
-                "description": "",
+                "description": "Test test",
                 "date": "",
                 "content": ["https://i.ibb.co/JkvpqBX/7G3A0607.jpg", "https://i.ibb.co/k87nxVn/2.jpg", "https://i.ibb.co/qy1r4CQ/3.jpg", "https://i.ibb.co/T4bR6GD/4.jpg", "https://i.ibb.co/x7RYcNX/5.jpg", "https://i.ibb.co/fkdnxFx/6.jpg"],
                 "link": "https://www.facebook.com/Falsiverecords/posts/pfbid0KgZM4rttZ7vhtpUKXfnLSHsV69pdhgf8y6SFtcfZLVN9oNT6aFUzB4wueoDPLXY4l"
@@ -76,8 +76,8 @@
                 "title": "Studentenagenda EHB",
                 "description": "",
                 "date": "",
-                "content": ["https://i.ibb.co/F0Dg0HW/1.jpg"],
-                "link": ""
+                "content": ["https://i.ibb.co/F0Dg0HW/1.jpg", "https://i.ibb.co/L1SP27n/Studentenagenda-22-23.png"],
+                "link": "ja"
             },
             {
                 "title": "Totebag Fak Letteren",
