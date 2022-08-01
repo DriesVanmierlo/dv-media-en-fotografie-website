@@ -94,6 +94,7 @@
     background-color: var(--dark-gray);
     border-bottom: 1px solid var(--yellow);
     color: var(--white);
+    font-family: 'poppins', sans-serif;
 }
 
 #contact-form label {

@@ -67,7 +67,7 @@
 .home-content-info {
     color: var(--white);
     width: 90%;
-    margin: auto;
+    margin-left: 5%;
     margin-top: 25px;
     font-size: 15px;
     font-weight: 300;
@@ -150,6 +150,11 @@
         width: 80%;
     }
 
+    .home-content-info {
+        margin: auto;
+        margin-top: 25px;
+    }
+
 }
 
 @media only screen and (min-width: 1024px){
@@ -227,9 +232,6 @@
     .home-content-titles-small{
         width: 80%;
         margin-top: 0;
-    }
-
-    .home-content-background-title{
     }
 
     .home-arrow{

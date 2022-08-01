@@ -18,12 +18,12 @@ function Contact () {
                             <h2>Adres</h2>
                             <div>Dries Vanmierlo</div>
                             <div>Tuinstraat 2, 3950 Bocholt</div>
-                            <div>BTW BE XXX XXX XXX</div>
+                            <div>BTW BE0788.775.690</div>
                         </div>
                         <div className="contact-info-section">
                             <h2>Contact informatie</h2>
                             <div>driesvanmierlo.media@gmail.com</div>
-                            <div>0470 63 75 28</div>
+                            <div>+32 (0) 470 63 75 28</div>
                         </div>
                     </div>
                     <ul className='contact-socials-desktop'>
@@ -67,7 +67,7 @@ function Contact () {
                         </div>
                             <div className="message-field">
                                 <label htmlFor="message">Bericht</label>
-                                <textarea className="contact-message" rows={8} required type="text" id="message" name="message" />
+                                <textarea className="contact-message" rows={7} required type="text" id="message" name="message" />
                             </div>
                         <button className="white-button" id="contact-submit">Verzenden <span className='icon-right_arrow_big_icon icon-contact'></span></button>
                     </form>

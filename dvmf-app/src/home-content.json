@@ -1,6 +1,6 @@
 [{
         "service": "Fotografie",
-        "description": "Wil je een onvergetelijk feest of evenement vastleggen op beeld, of je persoonlijke momenten? Ik sta klaar om jou te helpen!",
+        "description": "Wil je een onvergetelijk evenement of feest vastleggen op beeld? Wil je persoonlijke of waardevolle momenten koesteren? Of misschien kan ik jouw product of zaak in de kijker zetten? Ik help je graag met een voordelige prijs op jouw maat! Je krijgt de bewerkte foto's binnen de 3 werkdagen opgestuurd!",
         "content": ["https://i.ibb.co/JkvpqBX/7G3A0607.jpg", "https://i.ibb.co/0m2dCqh/1.jpg", "https://i.ibb.co/T4bR6GD/4.jpg", "https://i.ibb.co/t4zVdBD/IMG-9904.jpg", "https://i.ibb.co/Zg9Bg5L/4.jpg"],
         "fullScreen": true,
         "projects": [{
@@ -56,20 +56,20 @@
     },
     {
         "service": "Videografie",
-        "description": "Tegenwoordig is het belang van videocontent groter dan ooit. Ik sta open voor al jouw wensen om helemaal up-to-date te zijn op een trendy manier!",
+        "description": "Tegenwoordig is het belang van videocontent groter dan ooit. Wil je een aftermovie, videoreportage, opvallende reclamespot of social media posts, ...? Ik help je graag op een persoonlijke manier verder om het optimale resultaat te verkrijgen!",
         "content": ["https://res.cloudinary.com/dijwniqzx/video/upload/v1659186979/DV%20Media%20en%20Fotografie/Website/2_Trim_hdtueo.mp4", "https://res.cloudinary.com/dijwniqzx/video/upload/v1659187618/DV%20Media%20en%20Fotografie/Website/DV_Gaming_-_Favoriete_Spelletje_prod._Sawer__Trim_orwu6r.mp4"],
         "fullScreen": false,
         "projects": [{
             "title": "Final Show intro",
             "description": "",
             "date": "",
-            "content": ["https://i.ibb.co/TrMP9dV/1.png", "https://player.vimeo.com/video/729921482?h=716d450b84"],
+            "content": ["https://i.ibb.co/kJj8FYf/1.png", "https://player.vimeo.com/video/729921482?h=716d450b84"],
             "link": ""
         }]
     },
     {
         "service": "Design",
-        "description": "Voor al jouw ontwerptaken een oplossing! We overleggen samen over wat de beste oplossing is voor jouw wensen.",
+        "description": "Voor al jouw ontwerptaken een oplossing! Met ervaring op verschillende vlakken, print en digitaal, luister ik graag naar jouw noden. We bespreken samen wat je precies nodig hebt. Wat werkt er voor jou en wat absoluut niet. Het is een zoektocht naar perfectie!",
         "content": ["https://i.ibb.co/F0Dg0HW/1.jpg", "https://i.ibb.co/PMmRFM3/Mockup-1.png", "https://i.ibb.co/Hx9vJVV/1-2.jpg"],
         "fullScreen": false,
         "projects": [{
@@ -97,7 +97,7 @@
     },
     {
         "service": "Web",
-        "description": "Een aantrekkelijke en gebruiksvriendelijke website hebben is van groot belang, daarom dat ik graag de tijd neem om het beste internetresultaat voor u of uw onderneming te maken!",
+        "description": "Een aantrekkelijke en gebruiksvriendelijke website hebben is van groot belang, daarom dat ik graag de tijd neem om het beste internetresultaat voor u of uw onderneming te maken! Van een uitgewerkt ontwerp tot een responsive site, elke stap is belangrijk!",
         "content": ["https://i.ibb.co/6FCfJw1/1.jpg", "https://i.ibb.co/gPj6cLT/2.jpg"],
         "fullScreen": true,
         "projects": [{
