@@ -24,7 +24,7 @@ const location = useLocation();
             key={location.key} >
               <div className="App">
                 <Header className="header" />
-                <div className="main-container">
+                <main className="main-container">
                   <Switch location={location}>
                     <Route exact path="/">
                       <Home />
@@ -42,7 +42,7 @@ const location = useLocation();
                       <Success />
                     </Route>
                   </Switch>
-                </div>
+                </main>
               </div>
             </CSSTransition>
           </TransitionGroup>);

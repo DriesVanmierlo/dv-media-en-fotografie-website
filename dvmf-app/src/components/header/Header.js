@@ -14,14 +14,16 @@ function Header(){
     })
 
     return (
-        <nav className='header-container' id='nav-bar'>
-            <figure className='header-figure'>
-                <Link to="/#home-fotografie">
-                    <img className='header-img' src={logo} alt="dv-media-en-fotografie-logo" />
-                </Link>
-            </figure>
-            {setNavMenu(innerWidth)}
-        </nav>
+        <header>
+            <nav className='header-container' id='nav-bar'>
+                <figure className='header-figure'>
+                    <Link to="/#home-fotografie">
+                        <img className='header-img' src={logo} alt="dv-media-en-fotografie-logo" />
+                    </Link>
+                </figure>
+                {setNavMenu(innerWidth)}
+            </nav>
+        </header>
     );
 }
 
