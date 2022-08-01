@@ -61,7 +61,7 @@
         "fullScreen": false,
         "projects": [{
             "title": "Final Show intro",
-            "description": "",
+            "description": "Ieder jaar organiseert de Erasmushogeschool Brussel de Final Show. Een awardshow waarin de beste projecten van studenten naar voor komen. Dit jaar heb ik de intro gemaakt waarin te zien is hoe de show start!",
             "date": "",
             "content": ["https://i.ibb.co/kJj8FYf/1.png", "https://player.vimeo.com/video/729921482?h=716d450b84"],
             "link": ""
@@ -74,21 +74,21 @@
         "fullScreen": false,
         "projects": [{
                 "title": "Studentenagenda EHB",
-                "description": "",
+                "description": "Mijn school, de Erasmushogeschool Brussel, organiseerde een ontwerpwedstrijd. Wie maakt er het mooiste ontwerp voor de cover van de studentenagenda? Ik ben als winnaar verkozen en mijn kunst is binnenkort op 6000 exemplaren te zien!",
                 "date": "",
                 "content": ["https://i.ibb.co/F0Dg0HW/1.jpg", "https://i.ibb.co/L1SP27n/Studentenagenda-22-23.png"],
                 "link": "ja"
             },
             {
                 "title": "Totebag Fak Letteren",
-                "description": "",
+                "description": "Voor het studentencafé Fak Letteren in Leuven mocht ik de totebag en pins ontwerpen! Voor deze gezellige fakbar vind ik het een geslaagd resultaat!",
                 "date": "",
-                "content": ["https://i.ibb.co/PMmRFM3/Mockup-1.png"],
+                "content": ["https://i.ibb.co/PMmRFM3/Mockup-1.png", "https://i.ibb.co/HG7JYQn/3.png"],
                 "link": ""
             },
             {
                 "title": "Snapchat geofilters",
-                "description": "",
+                "description": "Een paar jaar geleden, toen ik nog veel jonger was, heb ik al mij bezig gehouden met het ontwepen van verschillende dingen. Eén daarvan zijn Snapchat Geofilters. Dit zijn filters die de gebruiker kan gebruiken wanneer ze op een bepaalde locatie zijn. Ik heb er zo 6 in totaal die ondertussen al meer dan 5,5 miljoen keer bekeken zijn!",
                 "date": "",
                 "content": ["https://i.ibb.co/Hx9vJVV/1-2.jpg", "https://i.ibb.co/6BxzHzC/2.jpg", "https://i.ibb.co/7bBRgDC/6.jpg", "https://i.ibb.co/JQTH54C/7.jpg"],
                 "link": ""
@@ -102,16 +102,16 @@
         "fullScreen": true,
         "projects": [{
                 "title": "Kapsamazing",
-                "description": "",
+                "description": "In mijn opleiding kregen we de kans om een full stack website te maken naar keuze. Van concept tot ontwerp tot uitwerking diep over nagedacht, met als resultaat een speelse, strakke en functionele website! Op de site kunnen gebruikers de kapsalon(gerecht) die ze net hebben gegeten een rating geven. Op deze manier kunnen de bezoekers van de site zien waar ze de beste kapsalons maken!",
                 "date": "",
                 "content": ["https://i.ibb.co/yRzdgPp/1.jpg", "https://i.ibb.co/gPj6cLT/2.jpg", "https://player.vimeo.com/video/724840144?h=a90b78fd90"],
                 "link": ""
             },
             {
                 "title": "Steam redesign",
-                "description": "",
+                "description": "Steam is een zeer groot en populair software-distributieplatform met de focus op games. Voor het vak Front-End in mijn opleiding, mocht ik deze site onder handen nemen. Eerst onderzoeken wat de huidige pijnpunten zijn, dan een verbeterd ontwerp opmaken en vervolgens de site programmeren. Dit is een werk geworden waar ik trots op ben!",
                 "date": "",
-                "content": ["https://i.ibb.co/6FCfJw1/1.jpg","https://i.ibb.co/6NDZWbQ/2.jpg", "https://player.vimeo.com/video/724846260?h=6418b1bebe"],
+                "content": ["https://i.ibb.co/6FCfJw1/1.jpg", "https://i.ibb.co/6NDZWbQ/2.jpg", "https://player.vimeo.com/video/724846260?h=6418b1bebe"],
                 "link": ""
             }
         ]
