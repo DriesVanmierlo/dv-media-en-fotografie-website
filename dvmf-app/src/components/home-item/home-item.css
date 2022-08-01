@@ -195,6 +195,7 @@
         display: block;
         position: relative;
         overflow: hidden;
+        z-index: 1;
     }
 
     .home-service-item:before {
