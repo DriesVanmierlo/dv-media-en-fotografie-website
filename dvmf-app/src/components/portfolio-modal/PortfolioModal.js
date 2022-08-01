@@ -4,7 +4,12 @@ import './portfolio-modal.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, A11y, Pagination } from 'swiper';
 
+import PortfolioImageModal from '../portfolio-image-modal/PortfolioImageModal';
+
 function PortfolioModal(props){
+
+    const [openModal, setOpenModal] = useState(false);
+    const [image, setImage] = useState();
 
     return(
         <div className='portfolio-modal-container'>
@@ -23,8 +28,8 @@ function PortfolioModal(props){
                         pagination={{ dynamicBullets: true }}
                         className='portfolio-modal-swiper'>
                            {props?.project.content.map(item => (
-                            <SwiperSlide className='portfolio-modal-swiper-slide' >
-                                {setContent(item)}
+                            <SwiperSlide className='portfolio-modal-swiper-slide'>
+                                {setContent(item, setOpenModal, setImage)}
                            </SwiperSlide>
                            ))}
                         </Swiper>
@@ -33,15 +38,17 @@ function PortfolioModal(props){
                 <p className="portfolio-modal-description">{props.project.description}</p>
                 </div>
             </div>
+            {openModal && <PortfolioImageModal image={image} closeModal={setOpenModal} />}
         </div>
     )
 }
 
-function setContent (link){
+function setContent (link, setOpenModal, setImage){
     if (link.includes('vimeo')) {
         return <iframe title="vimeo-player" className="portfolio-modal-iframe" src={link} width="100%" height="auto" frameborder="0" allowfullscreen></iframe>
     } else {
-        return <img src={link} alt="preview-project-image" />
+        return <figure className="portfolio-modal-figure"><img className="portfolio-modal-image" onClick={() => {setOpenModal(true); setImage(link)}} src={link} alt="preview-project-image" />
+        <span onClick={() => {setOpenModal(true); setImage(link)}} className="icon-maximize portfolio-modal-maximize"></span></figure>
     }
 }
 

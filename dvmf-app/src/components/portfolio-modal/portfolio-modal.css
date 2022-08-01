@@ -18,7 +18,7 @@
 .portfolio-modal-header {
     display: flex;
     align-items: baseline;
-    margin-bottom: 12px;
+    margin-bottom: 24px;
 }
 
 .portfolio-modal-back, .portfolio-modal-more {
@@ -143,6 +143,33 @@
     font-weight: 300;
 }
 
+.portfolio-modal-figure {
+    margin: 0;
+    position: relative;
+    width: fit-content;
+    margin: auto;
+}
+
+.portfolio-modal-maximize {
+    color: var(--yellow);
+    font-size: 21px;
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    z-index: 1;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: var(--dark-gray);
+    border-radius: 100px;
+    padding: 10px;
+}
+
+.portfolio-modal-figure:hover .portfolio-modal-maximize {
+    opacity: 1;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
 @media only screen and (min-width: 768px){
 
     .portfolio-modal-content {
@@ -165,6 +192,10 @@
         object-fit: contain;
         -o-object-position: center;
         object-position: center;
+    }
+
+    .portfolio-modal-swiper-slide img:hover {
+        cursor: pointer;
     }
 
     .portfolio-modal-swiper .swiper-button-next, .portfolio-modal-swiper .swiper-button-prev {
