@@ -146,7 +146,7 @@
         height: 95vh;
     }
 
-    .home-content-titles, .home-content-info, .home-content-buttons {
+    .home-content-titles, .home-content-info, .home-content-buttons, .home-content-titles-small {
         width: 80%;
     }
 
