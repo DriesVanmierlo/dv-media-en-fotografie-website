@@ -17,7 +17,8 @@ function Contact () {
                         <div className="contact-info-section">
                             <h2>Adres</h2>
                             <div>Dries Vanmierlo</div>
-                            <div>Tuinstraat 2, 3950 Bocholt</div>
+                            <div>Tuinstraat 2</div>
+                            <div>3950 Bocholt, België</div>
                             <div>BTW BE0788.775.690</div>
                         </div>
                         <div className="contact-info-section">
@@ -34,7 +35,7 @@ function Contact () {
                 </div>
                 <div className="contact-form-container">
                     <h2>Stuur me een bericht!</h2>
-                    <p>Ik probeer zo snel mogelijk te reageren om samen naar de beste oplossing voor u te zoeken!</p>
+                    <p>Heb je een vraag of wil je meer informatie? Geen probleem, ik probeer zo snel mogelijk te reageren om jou met plezier te helpen!</p>
                     <form id="contact-form" action="https://formsubmit.co/cebd607ef5bf444708ffe9ba23bd2ee8" method="POST">
                         <input type="text" name="_honey" style={{display: "none"}} />
                         <input type="hidden" name="_captcha" value={false} />
