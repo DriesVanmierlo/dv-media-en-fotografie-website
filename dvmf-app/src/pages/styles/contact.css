@@ -90,6 +90,7 @@
 
 .contact-message {
     width: 100%;
+    resize: vertical;
     border: none;
     background-color: var(--dark-gray);
     border-bottom: 1px solid var(--yellow);
@@ -221,5 +222,9 @@
 
     .contact-socials {
         display: none;
+    }
+
+    #contact-submit {
+        margin-bottom: 25px;
     }
 }

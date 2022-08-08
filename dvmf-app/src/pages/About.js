@@ -40,11 +40,11 @@ function About(){
 function setParagraphs(width, desktop){
     if(width >= 1024 && desktop == true){
         return <div className='about-content-container'>
-        <p className='about-paragraph'>Ik ben een zelfstandig student-ondernemer die zich toelegt op alle beeld, ontwerp en web opdrachten. Ik studeer momenteel Multimedia en Creatieve Technologiën aan de Erasmushogeschool in Brussel.</p>
+        <p className='about-paragraph'>Ik ben een zelfstandig student-ondernemer die zich toelegt op alle beeld, ontwerp en web opdrachten. Ik studeer momenteel Multimedia en Creatieve Technologieën aan de Erasmushogeschool in Brussel.</p>
         <p className='about-paragraph'>Steeds probeer ik mijn grenzen te verleggen om een optimaal resultaat te creëren. Ik ben gespecialiseerd op verschillende gebieden, omdat ik het belangrijk vind dat ik steeds alles over "the bigger picture" weet. Hierdoor werken al mijn diensten perfect met mekaar en heeft u maar één man nodig!</p>
         <p className='about-paragraph'>Ik wind er geen doekjes rond, ik ben zeker van mezelf en wil zo het vertrouwen opbouwen. Ik ben jong, enthousiast en de generatie van de toekomst!</p>
-        <p className='about-paragraph'>De passie die ik voor dit vak heb, heb ik gekregen op jonge leeftijd. Toen ik 14 jaar was, had ontdekt dat ik video's maken en dingen ontwerpen iets voor mij was. Tot de dag van vandaag heb ik hier steeds meer plezier in!</p>
-        <p className='about-paragraph'>Mijn doel is om iedereen die naar mij vraagt, in een vaste en tevreden klant te veranderen!</p>
+        <p className='about-paragraph'>De passie die ik voor dit vak heb, heb ik gekregen op jonge leeftijd. Toen ik 14 jaar was, had ik ontdekt dat video's maken en dingen ontwerpen iets voor mij was. Tot op de dag van vandaag heb ik hier steeds meer plezier in!</p>
+        <p className='about-paragraph'>Mijn doel is om iedereen die naar mij vraagt, te veranderen in een vaste en tevreden klant!</p>
         <ul className='about-socials'>
             <li><a class="about-social" target="_blank" href="https://www.instagram.com/vanmierlodries/"><span className='icon-instagram'></span></a></li>
             <li><a class="about-social" target="_blank" href="https://www.facebook.com/dries.vanmierlo.94/"><span className='icon-facebook'></span></a></li>
@@ -53,11 +53,11 @@ function setParagraphs(width, desktop){
     </div>
     } else if (width < 1024 && desktop == false) {
         return <div className='about-content-container'>
-        <p className='about-paragraph'>Ik ben een zelfstandig student-ondernemer die zich toelegt op alle beeld, ontwerp en web opdrachten. Ik studeer momenteel Multimedia en Creatieve Technologiën aan de Erasmushogeschool in Brussel.</p>
+        <p className='about-paragraph'>Ik ben een zelfstandig student-ondernemer die zich toelegt op alle beeld, ontwerp en web opdrachten. Ik studeer momenteel Multimedia en Creatieve Technologieën aan de Erasmushogeschool in Brussel.</p>
         <p className='about-paragraph'>Steeds probeer ik mijn grenzen te verleggen om een optimaal resultaat te creëren. Ik ben gespecialiseerd op verschillende gebieden, omdat ik het belangrijk vind dat ik steeds alles over "the bigger picture" weet. Hierdoor werken al mijn diensten perfect met mekaar en heeft u maar één man nodig!</p>
         <p className='about-paragraph'>Ik wind er geen doekjes rond, ik ben zeker van mezelf en wil zo het vertrouwen opbouwen. Ik ben jong, enthousiast en de generatie van de toekomst!</p>
-        <p className='about-paragraph'>De passie die ik voor dit vak heb, heb ik gekregen op jonge leeftijd. Toen ik 14 jaar was, had ontdekt dat ik video's maken en dingen ontwerpen iets voor mij was. Tot de dag van vandaag heb ik hier steeds meer plezier in!</p>
-        <p className='about-paragraph'>Mijn doel is om iedereen die naar mij vraagt, in een vaste en tevreden klant te veranderen!</p>
+        <p className='about-paragraph'>De passie die ik voor dit vak heb, heb ik gekregen op jonge leeftijd. Toen ik 14 jaar was, had ik ontdekt dat video's maken en dingen ontwerpen iets voor mij was. Tot op de dag van vandaag heb ik hier steeds meer plezier in!</p>
+        <p className='about-paragraph'>Mijn doel is om iedereen die naar mij vraagt, te veranderen in een vaste en tevreden klant!</p>
         <ul className='about-socials'>
             <li><a class="about-social" target="_blank" href="https://www.instagram.com/vanmierlodries/"><span className='icon-instagram'></span></a></li>
             <li><a class="about-social" target="_blank" href="https://www.facebook.com/dries.vanmierlo.94/"><span className='icon-facebook'></span></a></li>
