@@ -8,13 +8,13 @@
 
 .yellow-bar {
     height: 100vh;
-    width: 15px;
+    width: 10px;
     background-image: linear-gradient(var(--yellow) 75%, var(--black));
 }
 
 .yellow-bar-small {
     height: 95vh;
-    width: 15px;
+    width: 10px;
     background-image: linear-gradient(var(--yellow) 75%, var(--black));
 }
 
@@ -166,6 +166,7 @@
         height: 100vh;
         background-color: var(--yellow);
         background-image: none;
+        width: 15px;
     }
 
     .home-content-small {

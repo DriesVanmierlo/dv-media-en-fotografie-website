@@ -4,7 +4,7 @@
 }
 
 .portfolio-yellow-bar-full {
-    width: 15px;
+    width: 10px;
     position: absolute;
     height: 100%;
     z-index: 2;
@@ -15,4 +15,11 @@
     background-color: var(--light-black);
     width: 100%;
     padding-bottom: 80px;
+}
+
+@media only screen and (min-width: 1024px){
+
+    .portfolio-yellow-bar-full {
+        width: 15px;
+    }
 }

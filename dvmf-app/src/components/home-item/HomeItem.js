@@ -72,7 +72,7 @@ function HomeItem(props){
                     {setMarginTitles(serviceInfo, ref, animationTitles)}
                     <motion.p animate={animationText} className='home-content-info'>{serviceInfo.description}</motion.p>
                     <motion.div animate={animationButtons} className='home-content-buttons'>
-                        <Link className='home-content-button white-button' to={"/portfolio/" + serviceInfo.service.toString().toLowerCase()}>Portfolio <span className='icon-right_arrow_big_icon'></span></Link>
+                        <Link className='home-content-button white-button' to={"/portfolio#" + serviceInfo.service.toString().toLowerCase()}>Portfolio <span className='icon-right_arrow_big_icon'></span></Link>
                         <Link className='home-content-button white-button' to="/contact">Contact <span className='icon-right_arrow_big_icon'></span></Link>
                     </motion.div>
                 {setCopyright(innerWidth)}

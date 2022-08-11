@@ -51,20 +51,31 @@
 
 .contact-info-section > h2, .contact-form-container > h2 {
     color: var(--yellow);
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 200;
     margin-bottom: 3px;
 }
 
-.contact-info-section > div, .contact-form-container > p {
+.contact-info-section > div, .contact-form-container > p, .contact-info-section > a {
     color: var(--white);
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 200;
     margin-top: 0;
 }
 
+.contact-info-section > a {
+    text-decoration: none;
+    display: block;
+    transition: 0.3s ease;
+}
+
+.contact-info-section > a:hover {
+    color: var(--yellow);
+    transition: 0.3s ease;
+}
+
 .contact-form-container > p {
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .form-row {
@@ -198,7 +209,7 @@
         font-size: 18px;
     }
 
-    .contact-info-section > div, .contact-form-container > p {
+    .contact-info-section > div, .contact-form-container > p, .contact-info-section > a {
         font-size: 15px;
     }
 

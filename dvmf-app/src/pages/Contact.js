@@ -23,8 +23,8 @@ function Contact () {
                         </div>
                         <div className="contact-info-section">
                             <h2>Contact informatie</h2>
-                            <div>driesvanmierlo.media@gmail.com</div>
-                            <div>+32 (0) 470 63 75 28</div>
+                            <a href = "mailto: info@dvmedia.be">info@dvmedia.be</a>
+                            <a href="tel:+32470637528">+32 (0) 470 63 75 28</a>
                         </div>
                     </div>
                     <ul className='contact-socials-desktop'>
@@ -39,7 +39,7 @@ function Contact () {
                     <form id="contact-form" action="https://formsubmit.co/cebd607ef5bf444708ffe9ba23bd2ee8" method="POST">
                         <input type="text" name="_honey" style={{display: "none"}} />
                         <input type="hidden" name="_captcha" value={false} />
-                        <input type="hidden" name="_next" value="http://localhost:3000/success" />
+                        <input type="hidden" name="_next" value="https://dvmedia.be/success" />
                         <div className="form-row">
                             <div className="lastname-field">
                                 <label htmlFor="lastname">Naam</label>
