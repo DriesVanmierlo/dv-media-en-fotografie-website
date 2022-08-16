@@ -222,6 +222,16 @@
         margin-top: 12px;
     }
 
+    .portfolio-modal-more {
+        position: absolute;
+        right: 50px;
+        bottom: 4vh;
+    }
+
+    /* .swiper-wrapper {
+        padding: 0 !important;
+    } */
+
     .swiper-button-prev {
         left: 40%;
     }
@@ -229,6 +239,10 @@
     .swiper-button-next {
         right: 40%;
     }
+
+    /* .portfolio-modal-swiper .swiper-button-next, .portfolio-modal-swiper .swiper-button-prev {
+        top: 98%;
+    } */
 
     .portfolio-modal-swiper-slide img {
         max-height: 60vh;
