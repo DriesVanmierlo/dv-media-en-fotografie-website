@@ -11,8 +11,32 @@
     width: 10px;
     z-index: 1;
     /* background-image: linear-gradient(var(--yellow) 75%, var(--black)); */
-    background-image: linear-gradient(var(--darker-yellow), var(--yellow) 20%, var(--yellow) 80%, var(--darker-yellow));
+    /* background-image: linear-gradient(var(--darker-yellow), var(--yellow) 20%, var(--yellow) 80%, var(--darker-yellow)); */
     box-shadow: -3px 0px 15px 5px var(--lighter-yellow-50);
+
+    position: relative;
+    overflow: hidden;
+}
+
+.yellow-bar::before{
+    content: '';
+    position: absolute;
+    top: -100vh;
+    left: 0;
+    background-image: linear-gradient(var(--dark-yellow), var(--yellow) 10%, var(--yellow) 40%, var(--dark-yellow) 50%, var(--yellow) 60%, var(--yellow) 90%, var(--dark-yellow) 100%);
+    box-shadow: 0px 0px 3px 0px var(--lighter-yellow-50);
+    height: 200%;
+    width: 10px;
+    animation: flow-loop 8s linear infinite;
+}
+
+@keyframes flow-loop {
+    0% {
+        top: -100vh;
+    }
+    100% {
+        top: 0;
+    }
 }
 
 .yellow-bar-small {
@@ -20,9 +44,37 @@
     width: 10px;
     z-index: 1;
     /* background-image: linear-gradient(var(--yellow) 75%, var(--black)); */
-    background-image: linear-gradient(var(--darker-yellow), var(--yellow) 20%, var(--yellow) 80%, var(--darker-yellow));
+    /* background-image: linear-gradient(var(--darker-yellow), var(--yellow) 20%, var(--yellow) 80%, var(--darker-yellow)); */
     box-shadow: -3px 0px 15px 5px var(--lighter-yellow-50);
+
+    position: relative;
+    overflow: hidden;
 }
+
+.yellow-bar-small::before{
+    content: '';
+    position: absolute;
+    top: -95vh;
+    left: 0;
+    overflow: hidden;
+    background-image: linear-gradient(var(--dark-yellow), var(--yellow) 10%, var(--yellow) 40%, var(--dark-yellow) 50%, var(--yellow) 60%, var(--yellow) 90%, var(--dark-yellow) 100%);
+    box-shadow: 0px 0px 3px 0px var(--lighter-yellow-50);
+    height: 200%;
+    width: 10px;
+    overflow: hidden;
+    animation: flow-loop-small 8s linear infinite;
+}
+
+@keyframes flow-loop-small {
+    0% {
+        top: -95vh;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+
 
 .home-content {
     height: fit-content;

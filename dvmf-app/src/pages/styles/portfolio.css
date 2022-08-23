@@ -9,8 +9,30 @@
     height: 100%;
     z-index: 2;
     /* background-color: var(--yellow); */
-    background-image: linear-gradient(var(--darker-yellow), var(--yellow) 10%, var(--yellow) 40%, var(--darker-yellow) 50%, var(--yellow) 60%, var(--yellow) 90%, var(--darker-yellow) 100%);
+    /* background-image: linear-gradient(var(--darker-yellow), var(--yellow) 10%, var(--yellow) 40%, var(--darker-yellow) 50%, var(--yellow) 60%, var(--yellow) 90%, var(--darker-yellow) 100%); */
     box-shadow: -3px 0px 15px 5px var(--lighter-yellow-50);
+    overflow: hidden;
+}
+
+.portfolio-yellow-bar-full::before{
+    content: '';
+    position: absolute;
+    top: -100%;
+    left: 0;
+    background-image: linear-gradient(var(--dark-yellow), var(--yellow) 5%, var(--yellow) 20%, var(--dark-yellow) 25%, var(--yellow) 30%, var(--yellow) 45%, var(--dark-yellow) 50%, var(--yellow) 55%, var(--yellow) 70%, var(--dark-yellow) 75%, var(--yellow) 80%, var(--yellow) 95%, var(--dark-yellow) 100%);
+    box-shadow: 0px 0px 3px 0px var(--lighter-yellow-50);
+    height: 200%;
+    width: 10px;
+    animation: flow-loop-portfolio 16s linear infinite;
+}
+
+@keyframes flow-loop-portfolio {
+    0% {
+        top: -100%;
+    }
+    100% {
+        top: 0;
+    }
 }
 
 .portfolio-content-container {
