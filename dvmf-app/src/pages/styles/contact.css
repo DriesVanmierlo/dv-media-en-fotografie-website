@@ -1,12 +1,13 @@
 .contact-big-container{
     min-height: 100%;
-    background-color: var(--light-black);
+    /* background-color: var(--light-black); */
+    background-image: linear-gradient(315deg, var(--light-black) 30%, var(--darker-gray), var(--light-black) 70%);
 }
 
 .contact-container {
     width: 100%;
     min-height: 100%;
-    background-color: var(--light-black);
+    /* background-color: var(--light-black); */
 }
 
 .contact-titles {
