@@ -1,6 +1,8 @@
 .header-container {
     position: fixed;
-    background-color: var(--black-75);
+    /* background-color: var(--black-75); */
+    background-image: linear-gradient(90deg, var(--black-75), var(--black-50) 50%, var(--black-75) 75%);
+    backdrop-filter: blur(2px);
     height: 75px;
     width: 90%;
     padding-left: 5%;
@@ -68,7 +70,7 @@
     top: 0;
     right: -100%;
     width: 300px;
-    height: 100%;
+    height: 100vh;
     margin: 0;
     padding: 80px 0;
     list-style: none;
@@ -140,6 +142,7 @@
     .header-container{
       display: flex;
       justify-content: space-between;
+      background-image: linear-gradient(90deg, var(--black-75) 25%, var(--black-50) 35%, var(--black-75) 75%);
     }
 
     .nav-bar-list{
@@ -163,6 +166,8 @@
       display: block;
       position: relative;
       overflow: hidden;
+
+      padding-bottom: 5px;
     }
 
     .nav-bar-item:before {
@@ -170,11 +175,15 @@
       position: absolute;
       left: -100%;
       bottom: 0;
-      background-color: var(--yellow);
+      /* background-color: var(--yellow); */
+      background-image: linear-gradient(90deg, var(--darker-yellow), var(--yellow) 50%);
+        box-shadow: 0px 0px 3px 0px var(--lighter-yellow-50);
       height: 1px;
       width: 100%;
       z-index: -1;
       transition: 0.5s ease;
+
+      margin-bottom: 5px;
     }
 
     .nav-bar-item:hover:before {
@@ -188,7 +197,8 @@
       position: absolute;
       left: 0;
       bottom: 0;
-      background-color: var(--yellow);
+      /* background-color: var(--yellow); */
+      background-image: linear-gradient(90deg, var(--darker-yellow), var(--yellow) 50%);
       height: 1px;
       width: 100%;
       z-index: -1;

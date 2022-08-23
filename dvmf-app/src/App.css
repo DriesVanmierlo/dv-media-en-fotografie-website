@@ -8,6 +8,9 @@
     --light-black: #101010;
     --dark-gray: #202020;
     --yellow: #FFD900;
+    --darker-yellow: #A38B00;
+    --lighter-yellow-50: #FFF0AA50;
+    --lighter-yellow: #FFF0AA;
     --white: #ffffff;
     --swiper-theme-color: #FFD900 !important;
 }

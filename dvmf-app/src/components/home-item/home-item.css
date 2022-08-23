@@ -9,13 +9,19 @@
 .yellow-bar {
     height: 100vh;
     width: 10px;
-    background-image: linear-gradient(var(--yellow) 75%, var(--black));
+    z-index: 1;
+    /* background-image: linear-gradient(var(--yellow) 75%, var(--black)); */
+    background-image: linear-gradient(var(--darker-yellow), var(--yellow) 20%, var(--yellow) 80%, var(--darker-yellow));
+    box-shadow: -3px 0px 15px 5px var(--lighter-yellow-50);
 }
 
 .yellow-bar-small {
     height: 95vh;
     width: 10px;
-    background-image: linear-gradient(var(--yellow) 75%, var(--black));
+    z-index: 1;
+    /* background-image: linear-gradient(var(--yellow) 75%, var(--black)); */
+    background-image: linear-gradient(var(--darker-yellow), var(--yellow) 20%, var(--yellow) 80%, var(--darker-yellow));
+    box-shadow: -3px 0px 15px 5px var(--lighter-yellow-50);
 }
 
 .home-content {
@@ -164,9 +170,9 @@
 
     .yellow-bar, .yellow-bar-small {
         height: 100vh;
-        background-color: var(--yellow);
-        background-image: none;
-        width: 15px;
+        /* background-color: var(--yellow);
+        background-image: none; */
+        width: 10px;
     }
 
     .home-content-small {
@@ -182,7 +188,7 @@
         margin: 0;
         list-style: none;
         padding-top: 85px;
-        padding-bottom: 10px;
+        padding-bottom:5px;
     }
 
     .home-service-item {
@@ -197,6 +203,7 @@
         position: relative;
         overflow: hidden;
         z-index: 1;
+        padding-bottom: 5px;
     }
 
     .home-service-item:before {
@@ -204,11 +211,14 @@
         position: absolute;
         left: -100%;
         bottom: 0;
-        background-color: var(--yellow);
+        /* background-color: var(--yellow); */
+        background-image: linear-gradient(90deg, var(--darker-yellow), var(--yellow) 50%);
+        box-shadow: 0px 0px 3px 0px var(--lighter-yellow-50);
         height: 1px;
         width: 100%;
         z-index: -1;
         transition: 0.5s ease;
+        margin-bottom: 5px;
       }
 
       .home-service-item:hover:before {
@@ -221,7 +231,7 @@
       position: absolute;
       left: 0;
       bottom: 0;
-      background-color: var(--yellow);
+      /* background-color: var(--yellow); */
       height: 1px;
       width: 100%;
       z-index: -1;
