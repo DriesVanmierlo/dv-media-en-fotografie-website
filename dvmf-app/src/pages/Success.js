@@ -1,10 +1,18 @@
 import "./styles/contact.css";
+import { Helmet } from 'react-helmet-async';
 
 function Success () {
 
     document.getElementById('body').style.overflow = "unset";
 
     return (
+        <>
+        <Helmet>
+                <title>Bericht verzonden</title>
+                <meta name='description' content='Uw bericht is verzonden!' />
+                <meta name="robots" content="noindex" />
+                <link rel="canonical" href="/success" />
+            </Helmet>
         <div className="contact-big-container">
             <div className="contact-container">
                 <div className='contact-titles'>
@@ -44,6 +52,8 @@ function Success () {
                 </div>
             </div>
         </div>
+        </>
+        
     )
 }
 

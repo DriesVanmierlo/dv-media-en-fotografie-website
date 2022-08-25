@@ -1,6 +1,7 @@
 import './styles/about.css';
 import ProfilePicture from '../assets/images/profile_transparent.png';
 import { useEffect, useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 
 function About(){
 
@@ -15,25 +16,31 @@ function About(){
     })
 
     return (
-        <div className="about-container">
-            <div className='about-titles'>
-                    <h1 className='about-main-title'>About me</h1>
-                    <div className='about-background-title'>About me</div>
-            </div>
-            <div className='about-header-container'>
-                <figure className='about-figure'>
-                        <div className='yellow-image-border'></div>
-                        <img className='about-img' src={ProfilePicture} alt="profile-picture-dries" />
-                </figure>
-                <div className="about-desktop-content">
-                    <h2 className='about-content-title'>Hey, ik ben Dries!</h2>
-                    {setParagraphs(innerWidth, true)}
+        <>
+            <Helmet>
+                <title>About me</title>
+                <meta name='description' content='Leer mij beter kennen!' />
+                <link rel="canonical" href="/about" />
+            </Helmet>
+            <div className="about-container">
+                <div className='about-titles'>
+                        <h1 className='about-main-title'>About me</h1>
+                        <div className='about-background-title'>About me</div>
                 </div>
+                <div className='about-header-container'>
+                    <figure className='about-figure'>
+                            <div className='yellow-image-border'></div>
+                            <img className='about-img' src={ProfilePicture} alt="profile-picture-dries" />
+                    </figure>
+                    <div className="about-desktop-content">
+                        <h2 className='about-content-title'>Hey, ik ben Dries!</h2>
+                        {setParagraphs(innerWidth, true)}
+                    </div>
+                </div>
+                {setParagraphs(innerWidth, false)}
             </div>
-            {setParagraphs(innerWidth, false)}
-            
-
-        </div>
+        </>
+        
     );
 }
 

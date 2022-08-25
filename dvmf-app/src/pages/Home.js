@@ -3,6 +3,7 @@ import "./styles/home.css";
 import HomeItem from '../components/home-item/HomeItem';
 import services from '../home-content.json';
 import { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 
 function Home () {
 
@@ -35,10 +36,18 @@ function Home () {
     })
 
     return (
-        <div className='home-container'>
-            {servicesList}
-            {setCopyright(innerWidth)}
-        </div>
+        <>
+            <Helmet>
+                    <title>Home</title>
+                    <meta name='description' content='Bekijk wat ik allemaal te bieden heb voor jou!' />
+                    <link rel="canonical" href="/" />
+            </Helmet>
+            <div className='home-container'>
+                {servicesList}
+                {setCopyright(innerWidth)}
+            </div>
+        </>
+        
     );
 }
 
