@@ -64,7 +64,7 @@ function Contact () {
                                 </div>
                                 <div className="phone-field">
                                     <label htmlFor="phone">Telefoon</label>
-                                    <input required type="text" id="phone" name="phone" />
+                                    <input type="text" id="phone" name="phone" />
                                 </div>
                             </div>
                             <div className="form-row">

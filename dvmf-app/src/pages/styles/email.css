@@ -1,0 +1,33 @@
+.email-container {
+    background-image: linear-gradient(315deg, var(--light-black) 30%, var(--darker-gray), var(--light-black) 70%);
+    min-height: calc(100vh - 85px) ;
+    padding: 0;
+    padding-top: 85px;
+}
+
+.email-title {
+    color: var(--white);
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.email-text {
+    color: var(--white);
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.email-form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.email-form iframe {
+    width: 100%;
+    height: 500px;
+}

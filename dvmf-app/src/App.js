@@ -5,6 +5,7 @@ import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import Success from './pages/Success';
+import Email from './pages/Email';
 
 import {BrowserRouter as Router, Route, Switch, useLocation } from 'react-router-dom';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
@@ -40,6 +41,9 @@ const location = useLocation();
                     </Route>
                     <Route path="/success">
                       <Success />
+                    </Route>
+                    <Route path="/email">
+                      <Email />
                     </Route>
                   </Switch>
                 </main>
