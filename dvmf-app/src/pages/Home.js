@@ -38,7 +38,7 @@ function Home () {
     return (
         <>
             <Helmet>
-                    <title>Home</title>
+                    <title>DV Media &amp; Fotografie - Home</title>
                     <meta name='description' content='Bekijk wat ik allemaal te bieden heb voor jou!' />
                     <link rel="canonical" href="/" />
             </Helmet>
