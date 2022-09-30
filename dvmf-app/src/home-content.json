@@ -1,6 +1,6 @@
 [{
         "service": "Fotografie",
-        "description": "Wil je een onvergetelijk evenement of feest vastleggen op beeld? Wil je persoonlijke of waardevolle momenten koesteren? Of kan ik jouw product of zaak in de kijker zetten? Ik help je graag met een voordelige prijs op jouw maat! Je krijgt de bewerkte foto's binnen de 3 werkdagen opgestuurd!",
+        "description": "Wil je een onvergetelijk evenement of feest vastleggen op beeld? Wil je persoonlijke of waardevolle momenten koesteren? Of kan ik jouw product of zaak in de kijker zetten? Ik help je graag met een voordelige prijs op jouw maat!",
         "content": ["https://i.ibb.co/xgpw7Zt/falsive-records-leuven-dancing-crowd.jpg", "https://i.ibb.co/q0cxyVS/jumping-peer.jpg", "https://i.ibb.co/QnJ6xGc/falsive-records-leuven-dj-in-action.jpg", "https://i.ibb.co/5Y99kjc/sezoensrally-2022-monnens.jpg", "https://i.ibb.co/prJRzLc/giova-techno-dancing.jpg"],
         "fullScreen": true,
         "projects": [{
@@ -66,6 +66,20 @@
         "content": ["https://res.cloudinary.com/dijwniqzx/video/upload/v1659186979/DV%20Media%20en%20Fotografie/Website/2_Trim_hdtueo.mp4", "https://res.cloudinary.com/dijwniqzx/video/upload/v1659187618/DV%20Media%20en%20Fotografie/Website/DV_Gaming_-_Favoriete_Spelletje_prod._Sawer__Trim_orwu6r.mp4"],
         "fullScreen": false,
         "projects": [{
+            "title": "Bal Tropical 2022 Aftermovie",
+            "description": "Wat een feestje! Geloof je het niet? Bekijk zeker de aftermovie dan eens! De welbekende fuif van Kaulille gaf mij toestemming om de editie van 2022 in beeld te brengen.",
+            "date": "",
+            "content": ["https://i.ibb.co/KFN2WFV/Bal-Tropical-2022-thumbnail.jpg", "https://player.vimeo.com/video/755049491?h=4784575d0b"],
+            "link": ""
+        },
+        {
+            "title": "Moodvideo Beauty & More",
+            "description": "Voor het schoonheidssalon Beauty And More maakte ik een rustige moodvideo om de kijker helemaal te verleiden!",
+            "date": "",
+            "content": ["https://i.ibb.co/LS2bqs4/beauty-and-more-thumbnail.jpg", "https://player.vimeo.com/video/755054800?h=37f71b1934"],
+            "link": ""
+        },
+        {
             "title": "Final Show intro",
             "description": "Ieder jaar organiseert de Erasmushogeschool Brussel de Final Show. Een awardshow waarin de beste projecten van studenten naar voor komen. Dit jaar heb ik de intro gemaakt waarin te zien is hoe de show start!",
             "date": "",
