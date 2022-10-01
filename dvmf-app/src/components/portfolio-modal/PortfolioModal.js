@@ -11,6 +11,15 @@ function PortfolioModal(props){
     const [openModal, setOpenModal] = useState(false);
     const [image, setImage] = useState();
 
+    let isVideoproject = false;
+
+    props.project.content.forEach(item => {
+        console.log(item);
+        if(item.includes('vimeo')){
+            isVideoproject = true;
+        }
+    });
+
     return(
         <div className='portfolio-modal-container'>
             <div className='portfolio-modal-content'>
@@ -27,11 +36,17 @@ function PortfolioModal(props){
                         slidesPerView={1}
                         pagination={{ dynamicBullets: true }}
                         className='portfolio-modal-swiper'>
-                           {props?.project.content.map(item => (
+                           { isVideoproject ? (props?.project.content.slice(0).reverse().map(item => (
                             <SwiperSlide className='portfolio-modal-swiper-slide'>
                                 {setContent(item, setOpenModal, setImage)}
                            </SwiperSlide>
-                           ))}
+                           ))) : (
+                            props?.project.content.map(item => (
+                                <SwiperSlide className='portfolio-modal-swiper-slide'>
+                                    {setContent(item, setOpenModal, setImage)}
+                               </SwiperSlide>
+                               ))
+                           )}
                         </Swiper>
                         {setMoreButton(props.project)}
                     </div>
@@ -45,7 +60,7 @@ function PortfolioModal(props){
 
 function setContent (link, setOpenModal, setImage){
     if (link.includes('vimeo')) {
-        return <iframe title="vimeo-player" className="portfolio-modal-iframe" src={link} width="100%" height="auto" frameborder="0" allowfullscreen></iframe>
+        return <iframe title="vimeo-player" className="portfolio-modal-iframe" src={link} width="100%" height="auto" frameBorder="0" allowFullScreen></iframe>
     } else {
         return <figure className="portfolio-modal-figure"><img className="portfolio-modal-image" onClick={() => {setOpenModal(true); setImage(link)}} src={link} alt="preview-project-image" />
         <span onClick={() => {setOpenModal(true); setImage(link)}} className="icon-maximize portfolio-modal-maximize"></span></figure>
