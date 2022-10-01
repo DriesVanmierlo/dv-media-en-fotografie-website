@@ -4,12 +4,19 @@
         "content": ["https://i.ibb.co/xgpw7Zt/falsive-records-leuven-dancing-crowd.jpg", "https://i.ibb.co/q0cxyVS/jumping-peer.jpg", "https://i.ibb.co/QnJ6xGc/falsive-records-leuven-dj-in-action.jpg", "https://i.ibb.co/5Y99kjc/sezoensrally-2022-monnens.jpg", "https://i.ibb.co/prJRzLc/giova-techno-dancing.jpg"],
         "fullScreen": true,
         "projects": [{
+                "title": "Beauty & More",
+                "description": "Beauty And More is een schoonheidssalon in Bocholt. Met de vraag om professionele foto's te maken voor zowel de website als sociale media, ben ik aan de slag gegaan!",
+                "date": "",
+                "content": ["https://i.ibb.co/rFhTgqb/beauty-and-more-close-up.jpg", "https://i.ibb.co/7jx1kRY/beauty-and-more-hete-doek.jpg", "https://i.ibb.co/n3d5jzk/beauty-and-more-balie.jpg", "https://i.ibb.co/mzZTKqX/beauty-and-more-productenrek.jpg", "https://i.ibb.co/1vNBbGd/beauty-and-more-met-vergrootglas.jpg", "https://i.ibb.co/x1HXzPf/beauty-and-more-jelly-mask.jpg"],
+                "link": ""
+            },
+            {
                 "title": "LRV pony's Hechel-Eksel",
                 "description": "Alle foto's van het LRV tornooi te Hechtel-Eksel op 3 september zijn hier terug te vinden. Klik op 'Bekijk meer' om alle foto's te bekijken en om naar de webshop te gaan.",
                 "date": "",
                 "content": ["https://i.ibb.co/dKFt23y/lrv-ponys-hechtel-eksel.jpg"],
                 "link": "https://www.oypo.nl/3A9E10B08107882F"
-            },{
+            }, {
                 "title": "Falsive Records Leuven",
                 "description": "In het voorjaar mocht ik voor dit Nederlandse platenlabel hun techno showcase in beeld brengen. De wens was om zwart-wit foto's te maken maar als ik wou, mocht ik ook zelf wat experimenteren. De reactie: boven verwachtingen!",
                 "date": "",
@@ -63,29 +70,30 @@
     {
         "service": "Videografie",
         "description": "Tegenwoordig is het belang van videocontent groter dan ooit. Wil je een aftermovie, motion graphics, opvallende reclamespot of social media posts, ...? Ik help je graag op een persoonlijke manier verder om het optimale resultaat te verkrijgen!",
-        "content": ["https://res.cloudinary.com/dijwniqzx/video/upload/v1659186979/DV%20Media%20en%20Fotografie/Website/2_Trim_hdtueo.mp4", "https://res.cloudinary.com/dijwniqzx/video/upload/v1659187618/DV%20Media%20en%20Fotografie/Website/DV_Gaming_-_Favoriete_Spelletje_prod._Sawer__Trim_orwu6r.mp4"],
+        "content": ["https://res.cloudinary.com/dijwniqzx/video/upload/v1659186979/DV%20Media%20en%20Fotografie/Website/2_Trim_hdtueo.mp4", "https://res.cloudinary.com/dijwniqzx/video/upload/v1664633478/DV%20Media%20en%20Fotografie/Website/Aftermovie_BalTropical22_V3_Trim_a0yajk.mp4", "https://res.cloudinary.com/dijwniqzx/video/upload/v1664633655/DV%20Media%20en%20Fotografie/Website/Moodvideo_BaM_V2_Trim_bvren8.mp4"],
         "fullScreen": false,
         "projects": [{
-            "title": "Bal Tropical 2022 Aftermovie",
-            "description": "Wat een feestje! Geloof je het niet? Bekijk zeker de aftermovie dan eens! De welbekende fuif van Kaulille gaf mij toestemming om de editie van 2022 in beeld te brengen.",
-            "date": "",
-            "content": ["https://i.ibb.co/KFN2WFV/Bal-Tropical-2022-thumbnail.jpg", "https://player.vimeo.com/video/755049491?h=4784575d0b"],
-            "link": ""
-        },
-        {
-            "title": "Moodvideo Beauty & More",
-            "description": "Voor het schoonheidssalon Beauty And More maakte ik een rustige moodvideo om de kijker helemaal te verleiden!",
-            "date": "",
-            "content": ["https://i.ibb.co/LS2bqs4/beauty-and-more-thumbnail.jpg", "https://player.vimeo.com/video/755054800?h=37f71b1934"],
-            "link": ""
-        },
-        {
-            "title": "Final Show intro",
-            "description": "Ieder jaar organiseert de Erasmushogeschool Brussel de Final Show. Een awardshow waarin de beste projecten van studenten naar voor komen. Dit jaar heb ik de intro gemaakt waarin te zien is hoe de show start!",
-            "date": "",
-            "content": ["https://i.ibb.co/Dw2P4fw/intro-final-show.png", "https://player.vimeo.com/video/729921482?h=716d450b84"],
-            "link": ""
-        }]
+                "title": "Bal Tropical 2022 Aftermovie",
+                "description": "Wat een feestje! Geloof je het niet? Bekijk zeker de aftermovie dan eens! De welbekende fuif van Kaulille gaf mij toestemming om de editie van 2022 in beeld te brengen.",
+                "date": "",
+                "content": ["https://i.ibb.co/KFN2WFV/Bal-Tropical-2022-thumbnail.jpg", "https://player.vimeo.com/video/755049491?h=4784575d0b"],
+                "link": ""
+            },
+            {
+                "title": "Moodvideo Beauty & More",
+                "description": "Voor het schoonheidssalon Beauty And More in Bocholt maakte ik een rustige moodvideo om de kijker helemaal in de juiste stemming te brengen!",
+                "date": "",
+                "content": ["https://i.ibb.co/LS2bqs4/beauty-and-more-thumbnail.jpg", "https://player.vimeo.com/video/755054800?h=37f71b1934"],
+                "link": ""
+            },
+            {
+                "title": "Final Show intro",
+                "description": "Ieder jaar organiseert de Erasmushogeschool Brussel de Final Show. Een awardshow waarin de beste projecten van studenten naar voor komen. Dit jaar heb ik de intro gemaakt waarin te zien is hoe de show start!",
+                "date": "",
+                "content": ["https://i.ibb.co/Dw2P4fw/intro-final-show.png", "https://player.vimeo.com/video/729921482?h=716d450b84"],
+                "link": ""
+            }
+        ]
     },
     {
         "service": "Design",
