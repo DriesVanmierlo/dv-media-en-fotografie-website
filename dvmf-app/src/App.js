@@ -10,6 +10,7 @@ import Email from './pages/Email';
 import {BrowserRouter as Router, Route, Switch, useLocation } from 'react-router-dom';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import NotFound from './pages/NotFound';
+import CV from './pages/CV';
 
 function App() {
 
@@ -45,6 +46,9 @@ const location = useLocation();
                     </Route>
                     <Route path="/email">
                       <Email />
+                    </Route>
+                    <Route path="/cv">
+                      <CV />
                     </Route>
                     <Route path="*">
                       <NotFound />

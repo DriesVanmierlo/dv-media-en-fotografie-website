@@ -51,7 +51,7 @@ function setVideo(url){
         className="home-video"
         type="video/mp4"/>;
     } else {
-        return <img className='home-background-image' src={url} alt="homepage-background-image" />;
+        return <img className='home-background-image' src={url} alt="homepage-background-image" loading='lazy' />;
     }
 }
 
