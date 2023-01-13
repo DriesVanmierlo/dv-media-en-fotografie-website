@@ -70,7 +70,8 @@
     border: 1px solid var(--yellow) !important;
     opacity: 1 !important;
     top: 41.5px !important;
-    transform: scale(0.8) !important
+    transform: scale(0.8) !important;
+    background: transparent;
 }
 
 .swiper-pagination-bullet-active-next-next,
@@ -78,7 +79,8 @@
     border: 1px solid var(--yellow) !important;
     opacity: 1 !important;
     top: 41.5px !important;
-    transform: scale(0.6) !important
+    transform: scale(0.6) !important;
+    background: transparent;
 }
 
 .swiper-slide {
