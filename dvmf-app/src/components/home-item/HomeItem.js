@@ -132,7 +132,7 @@ function setMarginTitles(serviceInfo, ref, animation){
 
 function setCopyright(width){
     if(width >= 1024){
-        return <div className='home-copyright-container'>&copy; 2022 <a className='home-copyright-link' href="/">DV Media &amp; Fotografie</a></div>
+        return <div className='home-copyright-container'>&copy; 2023 <a className='home-copyright-link' href="/">DV Media &amp; Fotografie</a></div>
     }
 }
 

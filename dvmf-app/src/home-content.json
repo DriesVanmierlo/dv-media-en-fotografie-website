@@ -4,6 +4,7 @@
     "description": "Wil je een onvergetelijk evenement of feest vastleggen op beeld? Wil je persoonlijke of waardevolle momenten koesteren? Of kan ik jouw product of zaak in de kijker zetten? Ik help je graag met een voordelige prijs op jouw maat!",
     "content": [
       "https://i.ibb.co/VMgrGFY/18-jarige-bocholt-crowd-05.jpg",
+      "https://i.ibb.co/z264hZt/winkelinrichting-wanzl-02.jpg",
       "https://i.ibb.co/xgpw7Zt/falsive-records-leuven-dancing-crowd.jpg",
       "https://i.ibb.co/q0cxyVS/jumping-peer.jpg",
       "https://i.ibb.co/stbc0D8/18-jarige-bocholt-geposeerd-01.jpg",
@@ -12,6 +13,20 @@
     ],
     "fullScreen": true,
     "projects": [
+      {
+        "title": "Winkelinterieur Wanzl",
+        "description": "Ik mocht enkele projecten van Wanzl in beeld brengen. Met de vraag om hun winkelinrichting te laten uitblinken, ben ik aan de slag gegaan! Een combinatie van detail en overzichts beelden zorgt voor een professioneel resultaat!",
+        "date": "",
+        "content": [
+          "https://i.ibb.co/z264hZt/winkelinrichting-wanzl-02.jpg",
+          "https://i.ibb.co/191bXpw/winkelinrichting-wanzl-01.jpg",
+          "https://i.ibb.co/g40GXwx/winkelinrichting-wanzl-03.jpg",
+          "https://i.ibb.co/sQXHTPf/winkelinrichting-wanzl-04.jpg",
+          "https://i.ibb.co/D4J1Xh0/winkelinrichting-wanzl-05.jpg",
+          "https://i.ibb.co/KVpLQcW/winkelinrichting-wanzl-06.jpg"
+        ],
+        "link": ""
+      },
       {
         "title": "18 jarige Bocholt",
         "description": "Na enkele jaren afwezigheid was er dan terug een feestje in Bocholt! Ik mocht fotograaf zijn voor deze avond en heb wat mooie plaatjes kunnen maken! Alle foto's kun je terugvinden op mijn Facebookpagina.",
@@ -148,6 +163,16 @@
     "fullScreen": false,
     "projects": [
       {
+        "title": "SaveMe promovideo",
+        "description": "SaveMe is een app waarmee je een stil alarm kunt sturen naar vrienden wanneer je seksueel lastig gevallen wordt. Deze vrienden zullen je alarm zien verschijnen en kunnen je locatie volgen. Op deze manier kunnen zij subtiel je uit de onvielige situatie redden.",
+        "date": "",
+        "content": [
+          "https://i.ibb.co/D4Qkw8v/Save-Me-promovideo-thumbnail-optimized.jpg",
+          "https://player.vimeo.com/video/837583683"
+        ],
+        "link": "https://driesvanmierlo.be/saveme"
+      },
+      {
         "title": "Like You - Jessica Bouhez",
         "description": "Voor de akoestische versie van Jessica's eerste single trokken we samen de zaal in. Samen met Robbe, achter de piano, van Altered Records maakten we deze videoclip. Alle beelden zijn door mij geschoten.",
         "date": "",
@@ -243,15 +268,11 @@
     "fullScreen": true,
     "projects": [
       {
-        "title": "Kapsamazing",
-        "description": "In mijn opleiding kregen we de kans om een full stack website te maken naar keuze. Van concept tot ontwerp tot doordachte uitwerking, met als resultaat een speelse, strakke en functionele website! Op de site kunnen gebruikers de kapsalon(gerecht) die ze net hebben gegeten een rating geven. Op deze manier kunnen de bezoekers van de site zien waar ze de beste kapsalons maken!",
+        "title": "Persoonlijke site",
+        "description": "Uiteraard heb ik ook een eigen portfolio website. Hier vind je meer informatie over mezelf als werkend persoon. Deze website heb ik in dezelfde huisstijl ontworpen en ontwikkeld als dit studentenbedrijf. Neem zelf een kijkje op www.driesvanmierlo.be",
         "date": "",
-        "content": [
-          "https://i.ibb.co/SxhXTxv/kapsamazing-homepage.jpg",
-          "https://i.ibb.co/LRKq5vP/kapsamazing-detailpage.jpg",
-          "https://player.vimeo.com/video/724840144?h=a90b78fd90"
-        ],
-        "link": ""
+        "content": ["https://i.ibb.co/f2MX9KM/1673008826726.jpg"],
+        "link": "https://driesvanmierlo.be/"
       },
       {
         "title": "Steam redesign",
@@ -261,6 +282,17 @@
           "https://i.ibb.co/pWhxH1H/steam-redesign-homepage.jpg",
           "https://i.ibb.co/dDVBFv9/steam-redesign-detailpage.jpg",
           "https://player.vimeo.com/video/724846260?h=6418b1bebe"
+        ],
+        "link": ""
+      },
+      {
+        "title": "Kapsamazing",
+        "description": "In mijn opleiding kregen we de kans om een full stack website te maken naar keuze. Van concept tot ontwerp tot doordachte uitwerking, met als resultaat een speelse, strakke en functionele website! Op de site kunnen gebruikers de kapsalon(gerecht) die ze net hebben gegeten een rating geven. Op deze manier kunnen de bezoekers van de site zien waar ze de beste kapsalons maken!",
+        "date": "",
+        "content": [
+          "https://i.ibb.co/SxhXTxv/kapsamazing-homepage.jpg",
+          "https://i.ibb.co/LRKq5vP/kapsamazing-detailpage.jpg",
+          "https://player.vimeo.com/video/724840144?h=a90b78fd90"
         ],
         "link": ""
       }
