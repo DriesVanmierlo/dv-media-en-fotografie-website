@@ -3,7 +3,8 @@
     "service": "Fotografie",
     "description": "Wil je een onvergetelijk evenement of feest vastleggen op beeld? Wil je persoonlijke of waardevolle momenten koesteren? Of kan ik jouw product of zaak in de kijker zetten? Ik help je graag met een voordelige prijs op jouw maat!",
     "content": [
-      "https://i.ibb.co/VMgrGFY/18-jarige-bocholt-crowd-05.jpg",
+      "https://i.ibb.co/Rg7QFYP/Aaron-Blommaert-Breek-Out-portret.jpg",
+      "https://i.ibb.co/c6hcThG/Aaron-Blommaert-Breek-Out-stage.jpg",
       "https://i.ibb.co/z264hZt/winkelinrichting-wanzl-02.jpg",
       "https://i.ibb.co/xgpw7Zt/falsive-records-leuven-dancing-crowd.jpg",
       "https://i.ibb.co/q0cxyVS/jumping-peer.jpg",
@@ -13,6 +14,23 @@
     ],
     "fullScreen": true,
     "projects": [
+      {
+        "title": "BreekOut 2023",
+        "description": "Dit was de eerste keer dat ik mocht als fotograaf mocht werken op een festival! Een drukke avond met veel mooie plaatjes tot gevolg!",
+        "date": "",
+        "content": [
+          "https://i.ibb.co/Rg7QFYP/Aaron-Blommaert-Breek-Out-portret.jpg",
+          "https://i.ibb.co/gJs0nMQ/Berre-Breek-Out-closup-1.jpg",
+          "https://i.ibb.co/sFW9VrY/Pommelien-Thijs-Breek-Out-closeup.jpg",
+          "https://i.ibb.co/c6hcThG/Aaron-Blommaert-Breek-Out-stage.jpg",
+          "https://i.ibb.co/RHq5V7q/Aaron-Blommaert-Breek-Out-gitarist.jpg",
+          "https://i.ibb.co/d7wqwmg/Berre-Breek-Out-closup-2.jpg",
+          "https://i.ibb.co/zJQdQvq/Pommelien-Thijs-Breek-Out-stage.jpg",
+          "https://i.ibb.co/N7m9bSB/Pommelien-Thijs-Breek-Out-collage.jpg",
+          "https://i.ibb.co/YXvg8Sp/Berre-Breek-Out-crowd.jpg"
+        ],
+        "link": ""
+      },
       {
         "title": "Winkelinterieur Wanzl",
         "description": "Ik mocht enkele projecten van Wanzl in beeld brengen. Met de vraag om hun winkelinrichting te laten uitblinken, ben ik aan de slag gegaan! Een combinatie van detail en overzichts beelden zorgt voor een professioneel resultaat!",
@@ -163,6 +181,26 @@
     "fullScreen": false,
     "projects": [
       {
+        "title": "Bal Tropical 2023",
+        "description": "Voor het tweede jaar op rij mocht ik de tropische fuif Bal Tropical vastleggen op beeld. Het was weer een fantastische editie met veel lachende gezichten!",
+        "date": "",
+        "content": [
+          "https://i.ibb.co/9WXX2Nr/aftermovie-bal-tropical-2023-thumbnail.jpg",
+          "https://player.vimeo.com/video/868614544"
+        ],
+        "link": "https://driesvanmierlo.be/saveme"
+      },
+      {
+        "title": "Onthaalweekend Ekonomika",
+        "description": "Ik mocht het onthaalweekend van de studentenkring Ekonomika in beeld brengen. Net voordat het academiejaar begint, organiseren zij een weekend voor alle eerstejaars om kennis, en vooral, plezier te maken!",
+        "date": "",
+        "content": [
+          "https://i.ibb.co/4tzLCzJ/aftermovie-onthaalweekend-ekonomika-thumbnail.jpg",
+          "https://player.vimeo.com/video/868615765"
+        ],
+        "link": ""
+      },
+      {
         "title": "SaveMe promovideo",
         "description": "SaveMe is een app waarmee je een stil alarm kunt sturen naar vrienden wanneer je seksueel lastig gevallen wordt. Deze vrienden zullen je alarm zien verschijnen en kunnen je locatie volgen. Op deze manier kunnen zij subtiel je uit de onvielige situatie redden.",
         "date": "",
@@ -171,6 +209,16 @@
           "https://player.vimeo.com/video/837583683"
         ],
         "link": "https://driesvanmierlo.be/saveme"
+      },
+      {
+        "title": "ST:GG Recap",
+        "description": "Je hebt er misschien al van gehoord, ST:GG. Voor deze DJ mocht ik een korte recap video maken van zijn set op Bal Tropical!",
+        "date": "",
+        "content": [
+          "https://i.ibb.co/tBjKPLp/stigg-recap-promo-thumbnail.jpg",
+          "https://player.vimeo.com/video/868616062"
+        ],
+        "link": ""
       },
       {
         "title": "Like You - Jessica Bouhez",
