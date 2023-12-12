@@ -4,19 +4,35 @@
     "description": "Wil je een onvergetelijk evenement of feest vastleggen op beeld? Wil je persoonlijke of waardevolle momenten koesteren? Of kan ik jouw product of zaak in de kijker zetten? Ik help je graag met een voordelige prijs op jouw maat!",
     "content": [
       "https://i.ibb.co/Rg7QFYP/Aaron-Blommaert-Breek-Out-portret.jpg",
-      "https://i.ibb.co/c6hcThG/Aaron-Blommaert-Breek-Out-stage.jpg",
+      "https://i.ibb.co/WVmycCS/Bart-Peeters-Het-Depot-2.jpg",
       "https://i.ibb.co/z264hZt/winkelinrichting-wanzl-02.jpg",
-      "https://i.ibb.co/xgpw7Zt/falsive-records-leuven-dancing-crowd.jpg",
-      "https://i.ibb.co/q0cxyVS/jumping-peer.jpg",
+      "https://i.ibb.co/3Y3Lvqx/Bart-Peeters-Het-Depot-1.jpg",
+      "https://i.ibb.co/c6hcThG/Aaron-Blommaert-Breek-Out-stage.jpg",
+      "https://i.ibb.co/fD9j88d/Lady-Blaxx-Trix-2.jpg",
       "https://i.ibb.co/stbc0D8/18-jarige-bocholt-geposeerd-01.jpg",
-      "https://i.ibb.co/QnJ6xGc/falsive-records-leuven-dj-in-action.jpg",
+      "https://i.ibb.co/dKFt23y/lrv-ponys-hechtel-eksel.jpg",
       "https://i.ibb.co/5Y99kjc/sezoensrally-2022-monnens.jpg"
     ],
     "fullScreen": true,
     "projects": [
       {
+        "title": "Bart Peeters @ Het Depot",
+        "description": "Dit was de eerste keer dat ik foto's mocht maken voor Het Depot in Leuven. Meteen een heel leuke avond en vooral veel plezier er aan over gehouden!",
+        "date": "",
+        "content": [
+          "https://i.ibb.co/3Y3Lvqx/Bart-Peeters-Het-Depot-1.jpg",
+          "https://i.ibb.co/WVmycCS/Bart-Peeters-Het-Depot-2.jpg",
+          "https://i.ibb.co/Vj4TXGM/Bart-Peeters-Het-Depot-3.jpg",
+          "https://i.ibb.co/6gZmbqw/Bart-Peeters-Het-Depot-4.jpg",
+          "https://i.ibb.co/tX32H0K/Bart-Peeters-Het-Depot-5.jpg",
+          "https://i.ibb.co/Ythg2V0/Bart-Peeters-Het-Depot-6.jpg",
+          "https://i.ibb.co/QmShBwV/Bart-Peeters-Het-Depot-7.jpg"
+        ],
+        "link": ""
+      },
+      {
         "title": "BreekOut 2023",
-        "description": "Dit was de eerste keer dat ik mocht als fotograaf mocht werken op een festival! Een drukke avond met veel mooie plaatjes tot gevolg!",
+        "description": "Dit was de eerste keer dat ik als fotograaf mocht werken op een festival! Een drukke avond met veel mooie plaatjes tot gevolg!",
         "date": "",
         "content": [
           "https://i.ibb.co/Rg7QFYP/Aaron-Blommaert-Breek-Out-portret.jpg",
@@ -28,6 +44,21 @@
           "https://i.ibb.co/zJQdQvq/Pommelien-Thijs-Breek-Out-stage.jpg",
           "https://i.ibb.co/N7m9bSB/Pommelien-Thijs-Breek-Out-collage.jpg",
           "https://i.ibb.co/YXvg8Sp/Berre-Breek-Out-crowd.jpg"
+        ],
+        "link": ""
+      },
+      {
+        "title": "Trix Antwerp",
+        "description": "Deze avond mocht ik voor Jessica en Lady Blaxx foto's maken in het gezellige Trix in Antwerpen! Naast de mooie optredens leverde het ook mooite beelde op!",
+        "date": "",
+        "content": [
+          "https://i.ibb.co/MPBXYHQ/Jessica-Bouhez-Trix-1.jpg",
+          "https://i.ibb.co/CW6RvTH/Jessica-Bouhez-Trix-2.jpg",
+          "https://i.ibb.co/56Q6Hn5/Jessica-Bouhez-Trix-3.jpg",
+          "https://i.ibb.co/2MNmJPD/Jessica-Bouhez-Trix-4.jpg",
+          "https://i.ibb.co/mBfYhp8/Lady-Blaxx-Trix-1.jpg",
+          "https://i.ibb.co/fD9j88d/Lady-Blaxx-Trix-2.jpg",
+          "https://i.ibb.co/FBdXLwQ/Lady-Blaxx-Trix-3.jpg"
         ],
         "link": ""
       },
@@ -209,6 +240,16 @@
           "https://player.vimeo.com/video/837583683"
         ],
         "link": "https://driesvanmierlo.be/saveme"
+      },
+      {
+        "title": "Netwerkcafés Ekonomika",
+        "description": "Ieder jaar organiseerd de studentenvereniging Ekonomika een reeks ondernemerscafés voor studenten en alumni. Dit jaar mocht ik hiervan de aftermovie maken!",
+        "date": "",
+        "content": [
+          "https://i.ibb.co/WKJKTJN/Ekonomika-Ondernemerscafes-Thumbnail.png",
+          "https://player.vimeo.com/video/893901121"
+        ],
+        "link": ""
       },
       {
         "title": "ST:GG Recap",
