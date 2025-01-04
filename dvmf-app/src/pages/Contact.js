@@ -35,7 +35,7 @@ function Contact () {
                             </div>
                         </div>
                         <ul className='contact-socials-desktop'>
-                            <li><a class="contact-social" target="_blank" href="https://www.instagram.com/dvmediaenfotografie/"><span className='icon-instagram'></span></a></li>
+                            <li><a class="contact-social" target="_blank" href="https://www.instagram.com/driesvisuals/"><span className='icon-instagram'></span></a></li>
                             <li><a class="contact-social" target="_blank" href="https://www.facebook.com/DVMediaEnFotografie"><span className='icon-facebook'></span></a></li>
                             <li><a class="contact-social" target="_blank" href="https://www.linkedin.com/company/dv-media-fotografie/"><span className='icon-linkedin'></span></a></li>
                         </ul>
@@ -80,7 +80,7 @@ function Contact () {
                             <button className="white-button" id="contact-submit">Verzenden <span className='icon-right_arrow_big_icon icon-contact'></span></button>
                         </form>
                         <ul className='contact-socials'>
-                            <li><a class="contact-social" target="_blank" href="https://www.instagram.com/dvmediaenfotografie/"><span className='icon-instagram'></span></a></li>
+                            <li><a class="contact-social" target="_blank" href="https://www.instagram.com/driesvisuals/"><span className='icon-instagram'></span></a></li>
                             <li><a class="contact-social" target="_blank" href="https://www.facebook.com/DVMediaEnFotografie"><span className='icon-facebook'></span></a></li>
                             <li><a class="contact-social" target="_blank" href="https://www.linkedin.com/company/dv-media-fotografie/"><span className='icon-linkedin'></span></a></li>
                         </ul>
